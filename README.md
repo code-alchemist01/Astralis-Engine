@@ -11,6 +11,10 @@ A 3D solar system simulation built with C++ and OpenGL. Explore randomly generat
 - **Asteroid Belts**: Scattered asteroid fields between planetary orbits
 - **Planetary Rings**: Some planets feature beautiful ring systems
 - **Free Camera**: Navigate through space with smooth camera controls
+- **Particle Systems**: Dynamic particle effects for enhanced visual appeal
+- **Procedural Generation**: Seed-based generation ensures reproducible yet varied results
+- **ImGui Interface**: Real-time parameter adjustment and system information
+- **Configurable Starfield**: Adjustable star density and brightness
 
 ## Controls
 
@@ -21,35 +25,106 @@ A 3D solar system simulation built with C++ and OpenGL. Explore randomly generat
 
 ## Building
 
-### Requirements
-- CMake 3.15+
-- C++17 compatible compiler
-- OpenGL 3.3+ support
+### Prerequisites
+- **CMake 3.21+** (updated requirement)
+- **C++20 compatible compiler** (MSVC 2019+, GCC 10+, or Clang 12+)
+- **OpenGL 3.3+ support**
+- **Git** (for dependency fetching)
+
+### Dependencies
+The project automatically downloads and builds the following dependencies via CMake FetchContent:
+- **GLFW 3.4** - Window management and input handling
+- **GLM 1.0.1** - Mathematics library for graphics
+- **ImGui 1.90.1** - Immediate mode GUI
+- **spdlog 1.12.0** - Fast logging library
+- **FastNoiseLite 1.1.1** - Procedural noise generation
 
 ### Build Steps
 ```bash
+# Clone the repository
+git clone <repository-url>
+cd Astralis-Engine
+
+# Create build directory
 mkdir build
 cd build
+
+# Configure with CMake
 cmake ..
+
+# Build the project
 cmake --build . --config Release
 ```
 
 ### Running
 ```bash
+# Windows
 ./build/Release/procedural_universe.exe
+
+# Linux/macOS
+./build/procedural_universe
 ```
+
+### Command Line Options
+- `--seed <number>` - Set the random seed for system generation
+- `--planets <number>` - Set the number of planets (default: 8)
 
 ## Technical Details
 
-Built using modern C++ with:
-- OpenGL for rendering
-- GLFW for window management
-- GLM for mathematics
-- ImGui for interface elements
-- FastNoiseLite for procedural generation
-- spdlog for logging
+### Architecture
+The engine is built using modern C++20 with a modular architecture:
 
-Each solar system is generated using seed-based algorithms, ensuring reproducible yet varied results.
+**Core Components:**
+- **App**: Main application class managing the game loop
+- **Window**: GLFW-based window management
+- **Camera**: Free-flying camera with smooth controls
+- **Shader**: OpenGL shader management and compilation
+- **Texture**: Texture loading and management
+
+**Rendering System:**
+- **Geometry**: Mesh generation and management
+- **ParticleSystem**: GPU-based particle rendering
+- **Multiple specialized shaders** for different object types
+
+**Solar System Simulation:**
+- **SolarSystemManager**: Manages multiple solar systems
+- **PlanetManager**: Handles planet generation and rendering
+- **Planet, Moon, Sun**: Individual celestial body classes
+- **AsteroidBelt, PlanetaryRings**: Special effect systems
+
+### Technologies Used
+- **OpenGL 3.3+** for rendering
+- **GLFW** for window management and input
+- **GLM** for mathematics operations
+- **ImGui** for real-time interface elements
+- **FastNoiseLite** for procedural noise generation
+- **spdlog** for efficient logging
+- **STB Image** for texture loading
+
+### Procedural Generation
+Each solar system is generated using seed-based algorithms, ensuring reproducible yet varied results. The generation includes:
+- Planet positions, sizes, and orbital parameters
+- Surface textures and atmospheric effects
+- Moon systems with realistic orbital mechanics
+- Asteroid belt distributions
+- Planetary ring systems
+
+## Project Structure
+```
+Astralis-Engine/
+├── src/
+│   ├── core/           # Core engine components
+│   │   ├── App.*       # Main application
+│   │   ├── Camera.*    # Camera system
+│   │   ├── Shader.*    # Shader management
+│   │   └── ...         # Other core systems
+│   └── main.cpp        # Entry point
+├── assets/
+│   ├── shaders/        # GLSL shader files
+│   └── textures/       # Texture assets
+├── extern/             # External dependencies
+└── CMakeLists.txt      # Build configuration
+```
 
 ## Screenshots
 
@@ -57,9 +132,27 @@ Each solar system is generated using seed-based algorithms, ensuring reproducibl
 
 <img width="1901" height="1016" alt="Ekran görüntüsü 2025-09-28 025745" src="https://github.com/user-attachments/assets/145dd6ef-ec47-4cd5-821d-af4db009120c" />
 
-## Camera System Update
+## Contributing
 
-<img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/fa5a0cbc-c562-43d8-a4bc-5525e4a505c5" />
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
+### Development Guidelines
+- Follow the existing code style and conventions
+- Add comments for complex algorithms
+- Test your changes thoroughly
+- Update documentation as needed
+
+## License
+
+This project is open source. Please check the repository for license information.
+
+## Future Enhancements
+
+- **Physics Simulation**: Realistic orbital mechanics and gravitational effects
+- **Multiple Star Systems**: Binary and trinary star configurations
+- **Enhanced Lighting**: Volumetric lighting and atmospheric scattering
+- **Sound System**: Ambient space sounds and music
+- **Save/Load System**: Ability to save and revisit interesting systems
+- **VR Support**: Virtual reality exploration capabilities
 
 
