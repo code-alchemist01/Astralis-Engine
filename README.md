@@ -1,6 +1,21 @@
 # Astralis Engine
 
+[![C++ CI](https://github.com/code-alchemist01/Astralis-Engine/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/code-alchemist01/Astralis-Engine/actions/workflows/c-cpp.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![C++20](https://img.shields.io/badge/C%2B%2B-20-blue.svg)](https://en.cppreference.com/w/cpp/20)
+[![OpenGL](https://img.shields.io/badge/OpenGL-3.3%2B-green.svg)](https://www.opengl.org/)
+
 A 3D solar system simulation built with C++ and OpenGL. Explore randomly generated star systems with planets, moons, asteroid belts, and planetary rings.
+
+## Quick Start
+```bash
+git clone https://github.com/code-alchemist01/Astralis-Engine.git
+cd Astralis-Engine
+mkdir build && cd build
+cmake .. && cmake --build . --config Release
+./Release/procedural_universe.exe  # Windows
+./procedural_universe              # Linux/macOS
+```
 
 ## Features
 
@@ -134,7 +149,11 @@ Astralis-Engine/
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
+
+- 🐛 [Report bugs](https://github.com/code-alchemist01/Astralis-Engine/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBUG%5D+)
+- 💡 [Request features](https://github.com/code-alchemist01/Astralis-Engine/issues/new?assignees=&labels=enhancement&template=feature_request.md&title=%5BFEATURE%5D+)
+- 💬 [Join discussions](https://github.com/code-alchemist01/Astralis-Engine/discussions)
 
 ### Development Guidelines
 - Follow the existing code style and conventions
@@ -144,7 +163,7 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 
 ## License
 
-This project is open source. Please check the repository for license information.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Future Enhancements
 
