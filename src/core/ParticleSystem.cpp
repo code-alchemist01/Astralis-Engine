@@ -7,12 +7,7 @@
 #include <cmath>
 #include <spdlog/spdlog.h>
 
-// Math constants
-#ifndef M_PI
-#define M_PI 3.14159265358979323846
-#endif
-
-// OpenGL function pointers (same as in Geometry.cpp)
+// OpenGL type definitions
 typedef unsigned int GLuint;
 typedef int GLint;
 typedef int GLsizei;
@@ -39,8 +34,11 @@ typedef void GLvoid;
 #ifndef GL_FALSE
 #define GL_FALSE 0
 #endif
-#ifndef GL_BLEND
-#define GL_BLEND 0x0BE2
+#ifndef GL_TRUE
+#define GL_TRUE 1
+#endif
+#ifndef GL_UNSIGNED_INT
+#define GL_UNSIGNED_INT 0x1405
 #endif
 #ifndef GL_SRC_ALPHA
 #define GL_SRC_ALPHA 0x0302
@@ -48,25 +46,23 @@ typedef void GLvoid;
 #ifndef GL_ONE_MINUS_SRC_ALPHA
 #define GL_ONE_MINUS_SRC_ALPHA 0x0303
 #endif
-#ifndef GL_ONE
-#define GL_ONE 1
+#ifndef GL_BLEND
+#define GL_BLEND 0x0BE2
+#endif
+#ifndef GL_DEPTH_TEST
+#define GL_DEPTH_TEST 0x0B71
 #endif
 
-// OpenGL function pointers
+// OpenGL function pointers (only for extension functions)
 static void (*glGenVertexArrays)(GLsizei n, GLuint *arrays) = nullptr;
 static void (*glBindVertexArray)(GLuint array) = nullptr;
 static void (*glDeleteVertexArrays)(GLsizei n, const GLuint *arrays) = nullptr;
 static void (*glGenBuffers)(GLsizei n, GLuint *buffers) = nullptr;
 static void (*glBindBuffer)(GLenum target, GLuint buffer) = nullptr;
 static void (*glBufferData)(GLenum target, GLsizei size, const GLvoid *data, GLenum usage) = nullptr;
-static void (*glBufferSubData)(GLenum target, GLint offset, GLsizei size, const GLvoid *data) = nullptr;
 static void (*glDeleteBuffers)(GLsizei n, const GLuint *buffers) = nullptr;
 static void (*glVertexAttribPointer)(GLuint index, GLint size, GLenum type, unsigned char normalized, GLsizei stride, const GLvoid *pointer) = nullptr;
 static void (*glEnableVertexAttribArray)(GLuint index) = nullptr;
-static void (*glEnable)(GLenum cap) = nullptr;
-static void (*glDisable)(GLenum cap) = nullptr;
-static void (*glBlendFunc)(GLenum sfactor, GLenum dfactor) = nullptr;
-static void (*glDrawArrays)(GLenum mode, GLint first, GLsizei count) = nullptr;
 
 static bool particleFunctionsLoaded = false;
 
@@ -79,25 +75,24 @@ static void loadParticleOpenGLFunctions() {
     glGenBuffers = (void(*)(GLsizei, GLuint*))glfwGetProcAddress("glGenBuffers");
     glBindBuffer = (void(*)(GLenum, GLuint))glfwGetProcAddress("glBindBuffer");
     glBufferData = (void(*)(GLenum, GLsizei, const GLvoid*, GLenum))glfwGetProcAddress("glBufferData");
-    glBufferSubData = (void(*)(GLenum, GLint, GLsizei, const GLvoid*))glfwGetProcAddress("glBufferSubData");
     glDeleteBuffers = (void(*)(GLsizei, const GLuint*))glfwGetProcAddress("glDeleteBuffers");
     glVertexAttribPointer = (void(*)(GLuint, GLint, GLenum, unsigned char, GLsizei, const GLvoid*))glfwGetProcAddress("glVertexAttribPointer");
     glEnableVertexAttribArray = (void(*)(GLuint))glfwGetProcAddress("glEnableVertexAttribArray");
-    glEnable = (void(*)(GLenum))glfwGetProcAddress("glEnable");
-    glDisable = (void(*)(GLenum))glfwGetProcAddress("glDisable");
-    glBlendFunc = (void(*)(GLenum, GLenum))glfwGetProcAddress("glBlendFunc");
-    glDrawArrays = (void(*)(GLenum, GLint, GLsizei))glfwGetProcAddress("glDrawArrays");
     
     if (glGenVertexArrays && glBindVertexArray && glDeleteVertexArrays && 
-        glGenBuffers && glBindBuffer && glBufferData && glBufferSubData &&
-        glDeleteBuffers && glVertexAttribPointer && glEnableVertexAttribArray &&
-        glEnable && glDisable && glBlendFunc && glDrawArrays) {
+        glGenBuffers && glBindBuffer && glBufferData && glDeleteBuffers &&
+        glVertexAttribPointer && glEnableVertexAttribArray) {
         particleFunctionsLoaded = true;
         spdlog::info("Particle OpenGL functions loaded successfully");
     } else {
         spdlog::error("Failed to load Particle OpenGL functions");
     }
 }
+
+// Math constants
+#ifndef M_PI
+#define M_PI 3.14159265358979323846
+#endif
 
 ParticleSystem::ParticleSystem(const glm::vec3& origin, ParticleType type, int maxParticles)
     : origin_(origin)
@@ -119,7 +114,6 @@ ParticleSystem::ParticleSystem(const glm::vec3& origin, ParticleType type, int m
     , instanceVBO_(0)
     , buffersInitialized_(false) {
     
-    loadParticleOpenGLFunctions();
     particles_.reserve(maxParticles_);
     
     // Set type-specific parameters
@@ -152,6 +146,7 @@ ParticleSystem::~ParticleSystem() {
 }
 
 void ParticleSystem::initialize() {
+    loadParticleOpenGLFunctions();
     setupRenderingBuffers();
     spdlog::info("ParticleSystem initialized with {} max particles", maxParticles_);
 }

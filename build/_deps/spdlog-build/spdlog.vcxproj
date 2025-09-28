@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{803F2E76-55CD-3BB3-B4C5-09B9804317DD}</ProjectGuid>
+    <ProjectGuid>{C52553D9-93E7-37FD-919D-29F9DAF0C26F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,26 +59,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-build\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-build\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">spdlog.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">spdlogd</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-build\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-build\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">spdlog.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">spdlog</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-build\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-build\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">spdlog.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">spdlog</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-build\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-build\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">spdlog.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">spdlog</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -102,10 +102,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -118,7 +118,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -143,10 +143,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -159,7 +159,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -184,10 +184,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -200,7 +200,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -224,10 +224,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -239,11 +239,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/spdlog-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/spdlog-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni" "-BC:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build" --check-stamp-file "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/spdlog-build/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine" "-BC:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build" --check-stamp-file "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/spdlog-build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -251,12 +251,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\CMakeFiles\cmake.verify_globs;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\cmake\ide.cmake;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\cmake\utils.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\CMakeFiles\cmake.verify_globs;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\cmake\ide.cmake;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\cmake\utils.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/spdlog-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/spdlog-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni" "-BC:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build" --check-stamp-file "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/spdlog-build/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine" "-BC:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build" --check-stamp-file "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/spdlog-build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -264,12 +264,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\CMakeFiles\cmake.verify_globs;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\cmake\ide.cmake;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\cmake\utils.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\CMakeFiles\cmake.verify_globs;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\cmake\ide.cmake;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\cmake\utils.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/spdlog-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/spdlog-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni" "-BC:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build" --check-stamp-file "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/spdlog-build/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine" "-BC:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build" --check-stamp-file "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/spdlog-build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -277,12 +277,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\CMakeFiles\cmake.verify_globs;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\cmake\ide.cmake;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\cmake\utils.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\CMakeFiles\cmake.verify_globs;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\cmake\ide.cmake;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\cmake\utils.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/spdlog-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/spdlog-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni" "-BC:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build" --check-stamp-file "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/spdlog-build/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine" "-BC:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build" --check-stamp-file "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/spdlog-build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -290,123 +290,123 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\CMakeFiles\cmake.verify_globs;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\cmake\ide.cmake;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\cmake\utils.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\CMakeFiles\cmake.verify_globs;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\cmake\ide.cmake;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\cmake\utils.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\src\spdlog.cpp" />
-    <ClCompile Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\src\stdout_sinks.cpp" />
-    <ClCompile Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\src\color_sinks.cpp" />
-    <ClCompile Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\src\file_sinks.cpp" />
-    <ClCompile Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\src\async.cpp" />
-    <ClCompile Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\src\cfg.cpp" />
-    <ClCompile Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\src\bundled_fmtlib_format.cpp" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\async.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\async_logger-inl.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\async_logger.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\common-inl.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\common.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\formatter.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\fwd.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\logger-inl.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\logger.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\pattern_formatter-inl.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\pattern_formatter.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\spdlog-inl.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\spdlog.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\stopwatch.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\tweakme.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\version.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\details\backtracer-inl.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\details\backtracer.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\details\circular_q.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\details\console_globals.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\details\file_helper-inl.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\details\file_helper.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\details\fmt_helper.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\details\log_msg-inl.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\details\log_msg.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\details\log_msg_buffer-inl.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\details\log_msg_buffer.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\details\mpmc_blocking_q.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\details\null_mutex.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\details\os-inl.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\details\os.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\details\periodic_worker-inl.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\details\periodic_worker.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\details\registry-inl.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\details\registry.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\details\synchronous_factory.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\details\tcp_client-windows.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\details\tcp_client.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\details\thread_pool-inl.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\details\thread_pool.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\details\udp_client-windows.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\details\udp_client.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\details\windows_include.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\sinks\android_sink.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\sinks\ansicolor_sink-inl.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\sinks\ansicolor_sink.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\sinks\base_sink-inl.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\sinks\base_sink.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\sinks\basic_file_sink-inl.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\sinks\basic_file_sink.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\sinks\callback_sink.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\sinks\daily_file_sink.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\sinks\dist_sink.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\sinks\dup_filter_sink.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\sinks\hourly_file_sink.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\sinks\kafka_sink.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\sinks\mongo_sink.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\sinks\msvc_sink.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\sinks\null_sink.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\sinks\ostream_sink.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\sinks\qt_sinks.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\sinks\ringbuffer_sink.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\sinks\rotating_file_sink-inl.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\sinks\rotating_file_sink.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\sinks\sink-inl.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\sinks\sink.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\sinks\stdout_color_sinks-inl.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\sinks\stdout_color_sinks.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\sinks\stdout_sinks-inl.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\sinks\stdout_sinks.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\sinks\syslog_sink.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\sinks\systemd_sink.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\sinks\tcp_sink.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\sinks\udp_sink.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\sinks\win_eventlog_sink.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\sinks\wincolor_sink-inl.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\sinks\wincolor_sink.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\fmt\bin_to_hex.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\fmt\chrono.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\fmt\compile.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\fmt\fmt.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\fmt\ostr.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\fmt\ranges.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\fmt\std.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\fmt\xchar.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\fmt\bundled\args.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\fmt\bundled\chrono.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\fmt\bundled\color.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\fmt\bundled\compile.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\fmt\bundled\core.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\fmt\bundled\format-inl.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\fmt\bundled\format.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\fmt\bundled\locale.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\fmt\bundled\os.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\fmt\bundled\ostream.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\fmt\bundled\printf.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\fmt\bundled\ranges.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\fmt\bundled\std.h" />
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-src\include\spdlog\fmt\bundled\xchar.h" />
+    <ClCompile Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\src\spdlog.cpp" />
+    <ClCompile Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\src\stdout_sinks.cpp" />
+    <ClCompile Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\src\color_sinks.cpp" />
+    <ClCompile Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\src\file_sinks.cpp" />
+    <ClCompile Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\src\async.cpp" />
+    <ClCompile Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\src\cfg.cpp" />
+    <ClCompile Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\src\bundled_fmtlib_format.cpp" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\async.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\async_logger-inl.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\async_logger.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\common-inl.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\common.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\formatter.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\fwd.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\logger-inl.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\logger.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\pattern_formatter-inl.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\pattern_formatter.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\spdlog-inl.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\spdlog.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\stopwatch.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\tweakme.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\version.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\details\backtracer-inl.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\details\backtracer.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\details\circular_q.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\details\console_globals.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\details\file_helper-inl.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\details\file_helper.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\details\fmt_helper.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\details\log_msg-inl.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\details\log_msg.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\details\log_msg_buffer-inl.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\details\log_msg_buffer.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\details\mpmc_blocking_q.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\details\null_mutex.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\details\os-inl.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\details\os.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\details\periodic_worker-inl.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\details\periodic_worker.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\details\registry-inl.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\details\registry.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\details\synchronous_factory.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\details\tcp_client-windows.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\details\tcp_client.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\details\thread_pool-inl.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\details\thread_pool.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\details\udp_client-windows.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\details\udp_client.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\details\windows_include.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\sinks\android_sink.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\sinks\ansicolor_sink-inl.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\sinks\ansicolor_sink.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\sinks\base_sink-inl.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\sinks\base_sink.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\sinks\basic_file_sink-inl.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\sinks\basic_file_sink.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\sinks\callback_sink.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\sinks\daily_file_sink.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\sinks\dist_sink.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\sinks\dup_filter_sink.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\sinks\hourly_file_sink.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\sinks\kafka_sink.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\sinks\mongo_sink.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\sinks\msvc_sink.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\sinks\null_sink.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\sinks\ostream_sink.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\sinks\qt_sinks.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\sinks\ringbuffer_sink.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\sinks\rotating_file_sink-inl.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\sinks\rotating_file_sink.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\sinks\sink-inl.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\sinks\sink.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\sinks\stdout_color_sinks-inl.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\sinks\stdout_color_sinks.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\sinks\stdout_sinks-inl.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\sinks\stdout_sinks.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\sinks\syslog_sink.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\sinks\systemd_sink.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\sinks\tcp_sink.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\sinks\udp_sink.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\sinks\win_eventlog_sink.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\sinks\wincolor_sink-inl.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\sinks\wincolor_sink.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\fmt\bin_to_hex.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\fmt\chrono.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\fmt\compile.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\fmt\fmt.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\fmt\ostr.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\fmt\ranges.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\fmt\std.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\fmt\xchar.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\fmt\bundled\args.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\fmt\bundled\chrono.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\fmt\bundled\color.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\fmt\bundled\compile.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\fmt\bundled\core.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\fmt\bundled\format-inl.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\fmt\bundled\format.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\fmt\bundled\locale.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\fmt\bundled\os.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\fmt\bundled\ostream.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\fmt\bundled\printf.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\fmt\bundled\ranges.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\fmt\bundled\std.h" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-src\include\spdlog\fmt\bundled\xchar.h" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\ZERO_CHECK.vcxproj">
-      <Project>{D7EACC4D-0646-3B56-8FBA-47739901ED77}</Project>
+    <ProjectReference Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\ZERO_CHECK.vcxproj">
+      <Project>{94522C92-24D5-3CC9-BB31-C2AEAC636F5A}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

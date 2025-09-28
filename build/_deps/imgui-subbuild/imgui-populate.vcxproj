@@ -10,7 +10,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{373A0B23-9A0B-3FC2-AC4E-CD3C3CB8205A}</ProjectGuid>
+    <ProjectGuid>{02DFCA48-FE37-3FF6-ACE4-9EDC1EC7566A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -46,13 +46,13 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\CMakeFiles\6128993a072deb5a725fc8ae8421a4b5\imgui-populate-mkdir.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\CMakeFiles\dbb02ced3698ba863fed26955a382bf0\imgui-populate-mkdir.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating directories for 'imgui-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild/imgui-populate-prefix/tmp/imgui-populate-mkdirs.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/imgui-subbuild/imgui-populate-prefix/tmp/imgui-populate-mkdirs.cmake"
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-mkdir"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-mkdir"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -61,21 +61,21 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-mkdir</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\CMakeFiles\6128993a072deb5a725fc8ae8421a4b5\imgui-populate-download.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\CMakeFiles\dbb02ced3698ba863fed26955a382bf0\imgui-populate-download.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing download step (git clone) for 'imgui-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps"
+cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps"
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild/imgui-populate-prefix/tmp/imgui-populate-gitclone.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/imgui-subbuild/imgui-populate-prefix/tmp/imgui-populate-gitclone.cmake"
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-download"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-download"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -83,20 +83,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\imgui-populate-gitinfo.txt;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\imgui-populate-gitinfo.txt;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\CMakeFiles\6128993a072deb5a725fc8ae8421a4b5\imgui-populate-update.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\CMakeFiles\dbb02ced3698ba863fed26955a382bf0\imgui-populate-update.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing update step for 'imgui-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-src"
+cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-src"
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild/imgui-populate-prefix/tmp/imgui-populate-gitupdate.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/imgui-subbuild/imgui-populate-prefix/tmp/imgui-populate-gitupdate.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -104,19 +104,19 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\imgui-populate-prefix\tmp\imgui-populate-gitupdate.cmake;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\imgui-populate-update-info.txt;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\imgui-populate-prefix\tmp\imgui-populate-gitupdate.cmake;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\imgui-populate-update-info.txt;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\CMakeFiles\6128993a072deb5a725fc8ae8421a4b5\imgui-populate-patch.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\CMakeFiles\dbb02ced3698ba863fed26955a382bf0\imgui-populate-patch.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No patch step for 'imgui-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-patch"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-patch"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -124,24 +124,24 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\imgui-populate-patch-info.txt;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-update;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\imgui-populate-patch-info.txt;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\CMakeFiles\6128993a072deb5a725fc8ae8421a4b5\imgui-populate-configure.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\CMakeFiles\dbb02ced3698ba863fed26955a382bf0\imgui-populate-configure.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No configure step for 'imgui-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-build"
+cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-build"
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-configure"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-configure"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -149,23 +149,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\imgui-populate-prefix\tmp\imgui-populate-cfgcmd.txt;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\imgui-populate-prefix\tmp\imgui-populate-cfgcmd.txt;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\CMakeFiles\6128993a072deb5a725fc8ae8421a4b5\imgui-populate-build.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\CMakeFiles\dbb02ced3698ba863fed26955a382bf0\imgui-populate-build.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No build step for 'imgui-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-build"
+cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-build"
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-build"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-build"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -173,23 +173,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\CMakeFiles\6128993a072deb5a725fc8ae8421a4b5\imgui-populate-install.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\CMakeFiles\dbb02ced3698ba863fed26955a382bf0\imgui-populate-install.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No install step for 'imgui-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-build"
+cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-build"
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-install"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-install"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -197,23 +197,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\CMakeFiles\6128993a072deb5a725fc8ae8421a4b5\imgui-populate-test.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\CMakeFiles\dbb02ced3698ba863fed26955a382bf0\imgui-populate-test.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No test step for 'imgui-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-build"
+cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-build"
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-test"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-test"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -221,21 +221,21 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-test</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-test</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\CMakeFiles\50e62d688a5712a09d4d961ac0201a9b\imgui-populate-complete.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\CMakeFiles\795b59d6f8c98c94850170bcb7b55a05\imgui-populate-complete.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Completed 'imgui-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild/CMakeFiles/Debug"
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/imgui-subbuild/CMakeFiles/Debug"
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild/CMakeFiles/Debug/imgui-populate-complete"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/imgui-subbuild/CMakeFiles/Debug/imgui-populate-complete"
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-done"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-done"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -243,14 +243,14 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-install;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-mkdir;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-download;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-update;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-patch;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-configure;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-build;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\CMakeFiles\Debug\imgui-populate-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-install;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-mkdir;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-download;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-update;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-patch;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-configure;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-build;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\imgui-populate-prefix\src\imgui-populate-stamp\Debug\imgui-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\CMakeFiles\Debug\imgui-populate-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\CMakeFiles\fee09c14e366627bcbe0ecf663391bb3\imgui-populate.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\CMakeFiles\80edcb81335a130481156986e07d49c8\imgui-populate.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
@@ -260,18 +260,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\CMakeFiles\Debug\imgui-populate-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\CMakeFiles\imgui-populate</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\CMakeFiles\Debug\imgui-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\CMakeFiles\imgui-populate</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/imgui-subbuild/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild" "-BC:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild" --check-stamp-file "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/imgui-subbuild" "-BC:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/imgui-subbuild" --check-stamp-file "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/imgui-subbuild/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -279,19 +279,19 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\WindowsPaths.cmake;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\CMakeFiles\4.1.1\CMakeSystem.cmake;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\imgui-populate-prefix\tmp\imgui-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\WindowsPaths.cmake;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\CMakeFiles\4.1.1\CMakeSystem.cmake;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\imgui-populate-prefix\tmp\imgui-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\CMakeFiles\imgui-populate">
+    <None Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\CMakeFiles\imgui-populate">
     </None>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-subbuild\ZERO_CHECK.vcxproj">
-      <Project>{E198F93D-9817-3115-8EC5-25F0DE48C9C1}</Project>
+    <ProjectReference Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{C353684C-33A8-31B7-9588-7649C07E6BF2}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

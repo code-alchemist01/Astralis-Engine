@@ -28,8 +28,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(fastnoiselite-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/Auburn/FastNoiseLite.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "v1.1.1"
-                    SOURCE_DIR          "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/fastnoiselite-src"
-                    BINARY_DIR          "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/fastnoiselite-build"
+                    SOURCE_DIR          "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/fastnoiselite-src"
+                    BINARY_DIR          "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/fastnoiselite-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

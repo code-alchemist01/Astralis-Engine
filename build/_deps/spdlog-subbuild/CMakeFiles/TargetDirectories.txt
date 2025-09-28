@@ -1,3 +1,3 @@
-C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate.dir
-C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/spdlog-subbuild/CMakeFiles/ALL_BUILD.dir
-C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/spdlog-subbuild/CMakeFiles/ZERO_CHECK.dir
+C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate.dir
+C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/spdlog-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/spdlog-subbuild/CMakeFiles/ZERO_CHECK.dir

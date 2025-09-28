@@ -1,8 +1,8 @@
-^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\YENI\BUILD\_DEPS\IMGUI-SUBBUILD\CMAKEFILES\6128993A072DEB5A725FC8AE8421A4B5\IMGUI-POPULATE-MKDIR.RULE
+^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\ASTRALIS-ENGINE\BUILD\_DEPS\IMGUI-SUBBUILD\CMAKEFILES\DBB02CED3698BA863FED26955A382BF0\IMGUI-POPULATE-MKDIR.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild/imgui-populate-prefix/tmp/imgui-populate-mkdirs.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/imgui-subbuild/imgui-populate-prefix/tmp/imgui-populate-mkdirs.cmake"
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-mkdir"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-mkdir"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -10,15 +10,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\YENI\BUILD\_DEPS\IMGUI-SUBBUILD\CMAKEFILES\6128993A072DEB5A725FC8AE8421A4B5\IMGUI-POPULATE-DOWNLOAD.RULE
+^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\ASTRALIS-ENGINE\BUILD\_DEPS\IMGUI-SUBBUILD\CMAKEFILES\DBB02CED3698BA863FED26955A382BF0\IMGUI-POPULATE-DOWNLOAD.RULE
 setlocal
-cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps"
+cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps"
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild/imgui-populate-prefix/tmp/imgui-populate-gitclone.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/imgui-subbuild/imgui-populate-prefix/tmp/imgui-populate-gitclone.cmake"
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-download"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-download"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -26,13 +26,13 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\YENI\BUILD\_DEPS\IMGUI-SUBBUILD\CMAKEFILES\6128993A072DEB5A725FC8AE8421A4B5\IMGUI-POPULATE-UPDATE.RULE
+^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\ASTRALIS-ENGINE\BUILD\_DEPS\IMGUI-SUBBUILD\CMAKEFILES\DBB02CED3698BA863FED26955A382BF0\IMGUI-POPULATE-UPDATE.RULE
 setlocal
-cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-src"
+cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-src"
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild/imgui-populate-prefix/tmp/imgui-populate-gitupdate.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/imgui-subbuild/imgui-populate-prefix/tmp/imgui-populate-gitupdate.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -40,11 +40,11 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\YENI\BUILD\_DEPS\IMGUI-SUBBUILD\CMAKEFILES\6128993A072DEB5A725FC8AE8421A4B5\IMGUI-POPULATE-PATCH.RULE
+^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\ASTRALIS-ENGINE\BUILD\_DEPS\IMGUI-SUBBUILD\CMAKEFILES\DBB02CED3698BA863FED26955A382BF0\IMGUI-POPULATE-PATCH.RULE
 setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-patch"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-patch"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -52,31 +52,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\YENI\BUILD\_DEPS\IMGUI-SUBBUILD\CMAKEFILES\6128993A072DEB5A725FC8AE8421A4B5\IMGUI-POPULATE-CONFIGURE.RULE
+^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\ASTRALIS-ENGINE\BUILD\_DEPS\IMGUI-SUBBUILD\CMAKEFILES\DBB02CED3698BA863FED26955A382BF0\IMGUI-POPULATE-CONFIGURE.RULE
 setlocal
-cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-build"
-if %errorlevel% neq 0 goto :cmEnd
-C:
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-configure"
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\YENI\BUILD\_DEPS\IMGUI-SUBBUILD\CMAKEFILES\6128993A072DEB5A725FC8AE8421A4B5\IMGUI-POPULATE-BUILD.RULE
-setlocal
-cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-build"
+cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-build"
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-build"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-configure"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -84,15 +68,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\YENI\BUILD\_DEPS\IMGUI-SUBBUILD\CMAKEFILES\6128993A072DEB5A725FC8AE8421A4B5\IMGUI-POPULATE-INSTALL.RULE
+^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\ASTRALIS-ENGINE\BUILD\_DEPS\IMGUI-SUBBUILD\CMAKEFILES\DBB02CED3698BA863FED26955A382BF0\IMGUI-POPULATE-BUILD.RULE
 setlocal
-cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-build"
+cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-build"
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-install"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-build"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -100,15 +84,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\YENI\BUILD\_DEPS\IMGUI-SUBBUILD\CMAKEFILES\6128993A072DEB5A725FC8AE8421A4B5\IMGUI-POPULATE-TEST.RULE
+^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\ASTRALIS-ENGINE\BUILD\_DEPS\IMGUI-SUBBUILD\CMAKEFILES\DBB02CED3698BA863FED26955A382BF0\IMGUI-POPULATE-INSTALL.RULE
 setlocal
-cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\imgui-build"
+cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-build"
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-test"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-install"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -116,13 +100,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\YENI\BUILD\_DEPS\IMGUI-SUBBUILD\CMAKEFILES\50E62D688A5712A09D4D961AC0201A9B\IMGUI-POPULATE-COMPLETE.RULE
+^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\ASTRALIS-ENGINE\BUILD\_DEPS\IMGUI-SUBBUILD\CMAKEFILES\DBB02CED3698BA863FED26955A382BF0\IMGUI-POPULATE-TEST.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild/CMakeFiles/Debug"
+cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\imgui-build"
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild/CMakeFiles/Debug/imgui-populate-complete"
+C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-done"
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-test"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -130,7 +116,21 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\YENI\BUILD\_DEPS\IMGUI-SUBBUILD\CMAKEFILES\FEE09C14E366627BCBE0ECF663391BB3\IMGUI-POPULATE.RULE
+^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\ASTRALIS-ENGINE\BUILD\_DEPS\IMGUI-SUBBUILD\CMAKEFILES\795B59D6F8C98C94850170BCB7B55A05\IMGUI-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/imgui-subbuild/CMakeFiles/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/imgui-subbuild/CMakeFiles/Debug/imgui-populate-complete"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/Debug/imgui-populate-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\ASTRALIS-ENGINE\BUILD\_DEPS\IMGUI-SUBBUILD\CMAKEFILES\80EDCB81335A130481156986E07D49C8\IMGUI-POPULATE.RULE
 setlocal
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -138,9 +138,9 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\YENI\BUILD\_DEPS\IMGUI-SUBBUILD\CMAKELISTS.TXT
+^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\ASTRALIS-ENGINE\BUILD\_DEPS\IMGUI-SUBBUILD\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild" "-BC:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild" --check-stamp-file "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/imgui-subbuild" "-BC:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/imgui-subbuild" --check-stamp-file "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/imgui-subbuild/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

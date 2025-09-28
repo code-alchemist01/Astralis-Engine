@@ -1,44 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-subbuild\CMakeFiles\a47cab0081b6c446a29df46d0d317d0f\spdlog-populate-mkdir.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-subbuild\CMakeFiles\3575c0b95e3e52a28742ba60ea82e150\spdlog-populate-mkdir.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-subbuild\CMakeFiles\a47cab0081b6c446a29df46d0d317d0f\spdlog-populate-download.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-subbuild\CMakeFiles\3575c0b95e3e52a28742ba60ea82e150\spdlog-populate-download.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-subbuild\CMakeFiles\a47cab0081b6c446a29df46d0d317d0f\spdlog-populate-update.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-subbuild\CMakeFiles\3575c0b95e3e52a28742ba60ea82e150\spdlog-populate-update.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-subbuild\CMakeFiles\a47cab0081b6c446a29df46d0d317d0f\spdlog-populate-patch.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-subbuild\CMakeFiles\3575c0b95e3e52a28742ba60ea82e150\spdlog-populate-patch.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-subbuild\CMakeFiles\a47cab0081b6c446a29df46d0d317d0f\spdlog-populate-configure.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-subbuild\CMakeFiles\3575c0b95e3e52a28742ba60ea82e150\spdlog-populate-configure.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-subbuild\CMakeFiles\a47cab0081b6c446a29df46d0d317d0f\spdlog-populate-build.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-subbuild\CMakeFiles\3575c0b95e3e52a28742ba60ea82e150\spdlog-populate-build.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-subbuild\CMakeFiles\a47cab0081b6c446a29df46d0d317d0f\spdlog-populate-install.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-subbuild\CMakeFiles\3575c0b95e3e52a28742ba60ea82e150\spdlog-populate-install.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-subbuild\CMakeFiles\a47cab0081b6c446a29df46d0d317d0f\spdlog-populate-test.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-subbuild\CMakeFiles\3575c0b95e3e52a28742ba60ea82e150\spdlog-populate-test.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-subbuild\CMakeFiles\971194189f1d23bf4aff1ff3885eedaf\spdlog-populate-complete.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-subbuild\CMakeFiles\4751777bdb2625d1e24591060a5340ee\spdlog-populate-complete.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-subbuild\CMakeFiles\6e6c0c7c80c3b10efbf66dbb738a70ec\spdlog-populate.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-subbuild\CMakeFiles\d572ec0490069c71074fc292e23024dd\spdlog-populate.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-subbuild\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-subbuild\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\spdlog-subbuild\CMakeFiles\spdlog-populate" />
+    <None Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\spdlog-subbuild\CMakeFiles\spdlog-populate" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{3EA56F67-250F-3D84-B233-3EC2E4A94281}</UniqueIdentifier>
+      <UniqueIdentifier>{78A56168-7A4C-3904-87F5-E0B83081623C}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

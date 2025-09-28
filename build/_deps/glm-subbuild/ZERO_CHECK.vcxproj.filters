@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-subbuild\CMakeFiles\61a31b9c4f81e03dc9658a3148a8696d\generate.stamp.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-subbuild\CMakeFiles\4aca009ab88dee65ca86025c4d40e1b8\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{BCCB68BA-0B4F-3833-935C-793F1ED5CEEA}</UniqueIdentifier>
+      <UniqueIdentifier>{42F3A1FF-4144-3678-81FC-409927DD7AC5}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -1,1331 +1,1331 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\glm.cpp">
+    <ClCompile Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\glm.cpp">
       <Filter>Core Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\common.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\common.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\exponential.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\exponential.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\fwd.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\fwd.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\geometric.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\geometric.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\glm.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\glm.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\integer.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\integer.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\mat2x2.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\mat2x2.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\mat2x3.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\mat2x3.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\mat2x4.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\mat2x4.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\mat3x2.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\mat3x2.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\mat3x3.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\mat3x3.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\mat3x4.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\mat3x4.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\mat4x2.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\mat4x2.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\mat4x3.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\mat4x3.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\mat4x4.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\mat4x4.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\matrix.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\matrix.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\packing.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\packing.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\trigonometric.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\trigonometric.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\vec2.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\vec2.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\vec3.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\vec3.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\vec4.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\vec4.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\vector_relational.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\vector_relational.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\func_common.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\func_common.inl">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\func_common_simd.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\func_common_simd.inl">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\func_exponential.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\func_exponential.inl">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\func_exponential_simd.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\func_exponential_simd.inl">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\func_geometric.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\func_geometric.inl">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\func_geometric_simd.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\func_geometric_simd.inl">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\func_integer.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\func_integer.inl">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\func_integer_simd.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\func_integer_simd.inl">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\func_matrix.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\func_matrix.inl">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\func_matrix_simd.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\func_matrix_simd.inl">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\func_packing.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\func_packing.inl">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\func_packing_simd.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\func_packing_simd.inl">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\func_trigonometric.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\func_trigonometric.inl">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\func_trigonometric_simd.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\func_trigonometric_simd.inl">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\func_vector_relational.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\func_vector_relational.inl">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\func_vector_relational_simd.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\func_vector_relational_simd.inl">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\type_half.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\type_half.inl">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\type_mat2x2.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\type_mat2x2.inl">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\type_mat2x3.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\type_mat2x3.inl">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\type_mat2x4.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\type_mat2x4.inl">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\type_mat3x2.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\type_mat3x2.inl">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\type_mat3x3.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\type_mat3x3.inl">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\type_mat3x4.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\type_mat3x4.inl">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\type_mat4x2.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\type_mat4x2.inl">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\type_mat4x3.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\type_mat4x3.inl">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\type_mat4x4.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\type_mat4x4.inl">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\type_mat4x4_simd.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\type_mat4x4_simd.inl">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\type_quat.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\type_quat.inl">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\type_quat_simd.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\type_quat_simd.inl">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\type_vec1.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\type_vec1.inl">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\type_vec2.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\type_vec2.inl">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\type_vec3.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\type_vec3.inl">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\type_vec4.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\type_vec4.inl">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\type_vec4_simd.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\type_vec4_simd.inl">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\_features.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\_features.hpp">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\_fixes.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\_fixes.hpp">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\_noise.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\_noise.hpp">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\_swizzle.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\_swizzle.hpp">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\_swizzle_func.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\_swizzle_func.hpp">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\_vectorize.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\_vectorize.hpp">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\compute_common.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\compute_common.hpp">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\compute_vector_decl.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\compute_vector_decl.hpp">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\compute_vector_relational.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\compute_vector_relational.hpp">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\qualifier.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\qualifier.hpp">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\setup.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\setup.hpp">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\type_float.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\type_float.hpp">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\type_half.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\type_half.hpp">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\type_mat2x2.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\type_mat2x2.hpp">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\type_mat2x3.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\type_mat2x3.hpp">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\type_mat2x4.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\type_mat2x4.hpp">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\type_mat3x2.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\type_mat3x2.hpp">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\type_mat3x3.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\type_mat3x3.hpp">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\type_mat3x4.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\type_mat3x4.hpp">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\type_mat4x2.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\type_mat4x2.hpp">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\type_mat4x3.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\type_mat4x3.hpp">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\type_mat4x4.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\type_mat4x4.hpp">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\type_quat.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\type_quat.hpp">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\type_vec1.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\type_vec1.hpp">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\type_vec2.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\type_vec2.hpp">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\type_vec3.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\type_vec3.hpp">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\detail\type_vec4.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\detail\type_vec4.hpp">
       <Filter>Core Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_clip_space.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_clip_space.inl">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_common.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_common.inl">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_integer.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_integer.inl">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_projection.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_projection.inl">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_relational.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_relational.inl">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_transform.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_transform.inl">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\quaternion_common.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\quaternion_common.inl">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\quaternion_common_simd.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\quaternion_common_simd.inl">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\quaternion_exponential.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\quaternion_exponential.inl">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\quaternion_geometric.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\quaternion_geometric.inl">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\quaternion_relational.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\quaternion_relational.inl">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\quaternion_transform.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\quaternion_transform.inl">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\quaternion_trigonometric.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\quaternion_trigonometric.inl">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\scalar_common.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\scalar_common.inl">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\scalar_constants.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\scalar_constants.inl">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\scalar_integer.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\scalar_integer.inl">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\scalar_packing.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\scalar_packing.inl">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\scalar_reciprocal.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\scalar_reciprocal.inl">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\scalar_relational.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\scalar_relational.inl">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\scalar_ulp.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\scalar_ulp.inl">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_common.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_common.inl">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_integer.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_integer.inl">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_packing.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_packing.inl">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_reciprocal.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_reciprocal.inl">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_relational.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_relational.inl">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_ulp.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_ulp.inl">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\_matrix_vectorize.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\_matrix_vectorize.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_clip_space.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_clip_space.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_common.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_common.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_double2x2.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_double2x2.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_double2x2_precision.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_double2x2_precision.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_double2x3.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_double2x3.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_double2x3_precision.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_double2x3_precision.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_double2x4.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_double2x4.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_double2x4_precision.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_double2x4_precision.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_double3x2.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_double3x2.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_double3x2_precision.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_double3x2_precision.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_double3x3.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_double3x3.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_double3x3_precision.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_double3x3_precision.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_double3x4.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_double3x4.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_double3x4_precision.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_double3x4_precision.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_double4x2.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_double4x2.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_double4x2_precision.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_double4x2_precision.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_double4x3.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_double4x3.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_double4x3_precision.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_double4x3_precision.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_double4x4.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_double4x4.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_double4x4_precision.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_double4x4_precision.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_float2x2.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_float2x2.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_float2x2_precision.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_float2x2_precision.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_float2x3.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_float2x3.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_float2x3_precision.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_float2x3_precision.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_float2x4.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_float2x4.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_float2x4_precision.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_float2x4_precision.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_float3x2.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_float3x2.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_float3x2_precision.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_float3x2_precision.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_float3x3.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_float3x3.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_float3x3_precision.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_float3x3_precision.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_float3x4.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_float3x4.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_float3x4_precision.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_float3x4_precision.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_float4x2.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_float4x2.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_float4x2_precision.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_float4x2_precision.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_float4x3.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_float4x3.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_float4x3_precision.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_float4x3_precision.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_float4x4.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_float4x4.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_float4x4_precision.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_float4x4_precision.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_int2x2.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_int2x2.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_int2x2_sized.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_int2x2_sized.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_int2x3.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_int2x3.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_int2x3_sized.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_int2x3_sized.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_int2x4.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_int2x4.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_int2x4_sized.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_int2x4_sized.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_int3x2.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_int3x2.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_int3x2_sized.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_int3x2_sized.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_int3x3.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_int3x3.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_int3x3_sized.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_int3x3_sized.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_int3x4.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_int3x4.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_int3x4_sized.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_int3x4_sized.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_int4x2.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_int4x2.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_int4x2_sized.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_int4x2_sized.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_int4x3.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_int4x3.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_int4x3_sized.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_int4x3_sized.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_int4x4.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_int4x4.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_int4x4_sized.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_int4x4_sized.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_integer.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_integer.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_projection.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_projection.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_relational.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_relational.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_transform.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_transform.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_uint2x2.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_uint2x2.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_uint2x2_sized.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_uint2x2_sized.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_uint2x3.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_uint2x3.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_uint2x3_sized.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_uint2x3_sized.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_uint2x4.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_uint2x4.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_uint2x4_sized.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_uint2x4_sized.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_uint3x2.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_uint3x2.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_uint3x2_sized.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_uint3x2_sized.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_uint3x3.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_uint3x3.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_uint3x3_sized.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_uint3x3_sized.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_uint3x4.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_uint3x4.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_uint3x4_sized.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_uint3x4_sized.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_uint4x2.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_uint4x2.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_uint4x2_sized.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_uint4x2_sized.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_uint4x3.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_uint4x3.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_uint4x3_sized.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_uint4x3_sized.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_uint4x4.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_uint4x4.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\matrix_uint4x4_sized.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\matrix_uint4x4_sized.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\quaternion_common.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\quaternion_common.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\quaternion_double.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\quaternion_double.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\quaternion_double_precision.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\quaternion_double_precision.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\quaternion_exponential.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\quaternion_exponential.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\quaternion_float.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\quaternion_float.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\quaternion_float_precision.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\quaternion_float_precision.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\quaternion_geometric.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\quaternion_geometric.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\quaternion_relational.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\quaternion_relational.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\quaternion_transform.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\quaternion_transform.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\quaternion_trigonometric.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\quaternion_trigonometric.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\scalar_common.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\scalar_common.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\scalar_constants.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\scalar_constants.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\scalar_int_sized.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\scalar_int_sized.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\scalar_integer.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\scalar_integer.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\scalar_packing.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\scalar_packing.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\scalar_reciprocal.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\scalar_reciprocal.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\scalar_relational.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\scalar_relational.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\scalar_uint_sized.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\scalar_uint_sized.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\scalar_ulp.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\scalar_ulp.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_bool1.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_bool1.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_bool1_precision.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_bool1_precision.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_bool2.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_bool2.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_bool2_precision.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_bool2_precision.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_bool3.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_bool3.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_bool3_precision.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_bool3_precision.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_bool4.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_bool4.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_bool4_precision.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_bool4_precision.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_common.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_common.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_double1.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_double1.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_double1_precision.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_double1_precision.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_double2.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_double2.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_double2_precision.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_double2_precision.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_double3.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_double3.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_double3_precision.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_double3_precision.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_double4.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_double4.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_double4_precision.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_double4_precision.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_float1.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_float1.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_float1_precision.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_float1_precision.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_float2.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_float2.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_float2_precision.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_float2_precision.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_float3.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_float3.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_float3_precision.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_float3_precision.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_float4.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_float4.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_float4_precision.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_float4_precision.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_int1.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_int1.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_int1_sized.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_int1_sized.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_int2.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_int2.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_int2_sized.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_int2_sized.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_int3.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_int3.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_int3_sized.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_int3_sized.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_int4.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_int4.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_int4_sized.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_int4_sized.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_integer.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_integer.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_packing.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_packing.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_reciprocal.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_reciprocal.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_relational.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_relational.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_uint1.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_uint1.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_uint1_sized.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_uint1_sized.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_uint2.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_uint2.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_uint2_sized.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_uint2_sized.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_uint3.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_uint3.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_uint3_sized.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_uint3_sized.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_uint4.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_uint4.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_uint4_sized.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_uint4_sized.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\ext\vector_ulp.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\ext\vector_ulp.hpp">
       <Filter>EXT Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtc\bitfield.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtc\bitfield.inl">
       <Filter>GTC Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtc\color_space.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtc\color_space.inl">
       <Filter>GTC Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtc\constants.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtc\constants.inl">
       <Filter>GTC Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtc\epsilon.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtc\epsilon.inl">
       <Filter>GTC Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtc\integer.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtc\integer.inl">
       <Filter>GTC Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtc\matrix_access.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtc\matrix_access.inl">
       <Filter>GTC Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtc\matrix_inverse.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtc\matrix_inverse.inl">
       <Filter>GTC Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtc\matrix_transform.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtc\matrix_transform.inl">
       <Filter>GTC Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtc\noise.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtc\noise.inl">
       <Filter>GTC Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtc\packing.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtc\packing.inl">
       <Filter>GTC Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtc\quaternion.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtc\quaternion.inl">
       <Filter>GTC Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtc\quaternion_simd.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtc\quaternion_simd.inl">
       <Filter>GTC Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtc\random.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtc\random.inl">
       <Filter>GTC Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtc\round.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtc\round.inl">
       <Filter>GTC Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtc\type_precision.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtc\type_precision.inl">
       <Filter>GTC Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtc\type_ptr.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtc\type_ptr.inl">
       <Filter>GTC Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtc\ulp.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtc\ulp.inl">
       <Filter>GTC Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtc\bitfield.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtc\bitfield.hpp">
       <Filter>GTC Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtc\color_space.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtc\color_space.hpp">
       <Filter>GTC Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtc\constants.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtc\constants.hpp">
       <Filter>GTC Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtc\epsilon.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtc\epsilon.hpp">
       <Filter>GTC Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtc\integer.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtc\integer.hpp">
       <Filter>GTC Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtc\matrix_access.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtc\matrix_access.hpp">
       <Filter>GTC Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtc\matrix_integer.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtc\matrix_integer.hpp">
       <Filter>GTC Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtc\matrix_inverse.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtc\matrix_inverse.hpp">
       <Filter>GTC Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtc\matrix_transform.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtc\matrix_transform.hpp">
       <Filter>GTC Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtc\noise.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtc\noise.hpp">
       <Filter>GTC Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtc\packing.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtc\packing.hpp">
       <Filter>GTC Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtc\quaternion.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtc\quaternion.hpp">
       <Filter>GTC Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtc\random.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtc\random.hpp">
       <Filter>GTC Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtc\reciprocal.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtc\reciprocal.hpp">
       <Filter>GTC Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtc\round.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtc\round.hpp">
       <Filter>GTC Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtc\type_aligned.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtc\type_aligned.hpp">
       <Filter>GTC Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtc\type_precision.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtc\type_precision.hpp">
       <Filter>GTC Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtc\type_ptr.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtc\type_ptr.hpp">
       <Filter>GTC Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtc\ulp.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtc\ulp.hpp">
       <Filter>GTC Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtc\vec1.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtc\vec1.hpp">
       <Filter>GTC Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\associated_min_max.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\associated_min_max.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\bit.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\bit.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\closest_point.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\closest_point.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\color_encoding.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\color_encoding.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\color_space.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\color_space.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\color_space_YCoCg.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\color_space_YCoCg.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\common.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\common.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\compatibility.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\compatibility.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\component_wise.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\component_wise.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\dual_quaternion.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\dual_quaternion.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\easing.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\easing.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\euler_angles.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\euler_angles.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\extend.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\extend.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\extended_min_max.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\extended_min_max.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\exterior_product.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\exterior_product.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\fast_exponential.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\fast_exponential.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\fast_square_root.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\fast_square_root.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\fast_trigonometry.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\fast_trigonometry.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\float_notmalize.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\float_notmalize.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\functions.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\functions.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\gradient_paint.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\gradient_paint.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\handed_coordinate_space.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\handed_coordinate_space.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\hash.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\hash.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\integer.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\integer.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\intersect.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\intersect.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\io.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\io.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\log_base.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\log_base.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\matrix_cross_product.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\matrix_cross_product.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\matrix_decompose.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\matrix_decompose.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\matrix_factorisation.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\matrix_factorisation.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\matrix_interpolation.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\matrix_interpolation.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\matrix_major_storage.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\matrix_major_storage.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\matrix_operation.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\matrix_operation.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\matrix_query.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\matrix_query.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\matrix_transform_2d.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\matrix_transform_2d.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\mixed_product.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\mixed_product.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\norm.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\norm.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\normal.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\normal.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\normalize_dot.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\normalize_dot.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\optimum_pow.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\optimum_pow.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\orthonormalize.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\orthonormalize.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\pca.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\pca.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\perpendicular.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\perpendicular.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\polar_coordinates.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\polar_coordinates.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\projection.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\projection.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\quaternion.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\quaternion.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\raw_data.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\raw_data.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\rotate_normalized_axis.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\rotate_normalized_axis.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\rotate_vector.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\rotate_vector.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\scalar_relational.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\scalar_relational.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\spline.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\spline.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\std_based_type.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\std_based_type.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\string_cast.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\string_cast.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\texture.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\texture.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\transform.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\transform.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\transform2.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\transform2.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\type_aligned.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\type_aligned.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\type_trait.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\type_trait.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\vector_angle.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\vector_angle.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\vector_query.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\vector_query.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\wrap.inl">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\wrap.inl">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\associated_min_max.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\associated_min_max.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\bit.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\bit.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\closest_point.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\closest_point.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\color_encoding.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\color_encoding.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\color_space.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\color_space.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\color_space_YCoCg.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\color_space_YCoCg.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\common.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\common.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\compatibility.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\compatibility.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\component_wise.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\component_wise.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\dual_quaternion.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\dual_quaternion.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\easing.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\easing.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\euler_angles.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\euler_angles.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\extend.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\extend.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\extended_min_max.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\extended_min_max.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\exterior_product.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\exterior_product.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\fast_exponential.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\fast_exponential.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\fast_square_root.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\fast_square_root.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\fast_trigonometry.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\fast_trigonometry.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\functions.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\functions.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\gradient_paint.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\gradient_paint.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\handed_coordinate_space.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\handed_coordinate_space.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\hash.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\hash.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\integer.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\integer.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\intersect.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\intersect.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\io.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\io.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\log_base.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\log_base.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\matrix_cross_product.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\matrix_cross_product.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\matrix_decompose.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\matrix_decompose.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\matrix_factorisation.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\matrix_factorisation.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\matrix_interpolation.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\matrix_interpolation.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\matrix_major_storage.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\matrix_major_storage.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\matrix_operation.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\matrix_operation.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\matrix_query.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\matrix_query.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\matrix_transform_2d.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\matrix_transform_2d.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\mixed_product.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\mixed_product.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\norm.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\norm.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\normal.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\normal.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\normalize_dot.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\normalize_dot.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\number_precision.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\number_precision.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\optimum_pow.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\optimum_pow.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\orthonormalize.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\orthonormalize.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\pca.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\pca.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\perpendicular.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\perpendicular.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\polar_coordinates.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\polar_coordinates.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\projection.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\projection.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\quaternion.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\quaternion.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\range.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\range.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\raw_data.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\raw_data.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\rotate_normalized_axis.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\rotate_normalized_axis.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\rotate_vector.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\rotate_vector.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\scalar_multiplication.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\scalar_multiplication.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\scalar_relational.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\scalar_relational.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\spline.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\spline.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\std_based_type.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\std_based_type.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\string_cast.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\string_cast.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\texture.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\texture.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\transform.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\transform.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\transform2.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\transform2.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\type_aligned.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\type_aligned.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\type_trait.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\type_trait.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\vec_swizzle.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\vec_swizzle.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\vector_angle.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\vector_angle.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\vector_query.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\vector_query.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\gtx\wrap.hpp">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\gtx\wrap.hpp">
       <Filter>GTX Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\simd\common.h">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\simd\common.h">
       <Filter>SIMD Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\simd\exponential.h">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\simd\exponential.h">
       <Filter>SIMD Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\simd\geometric.h">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\simd\geometric.h">
       <Filter>SIMD Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\simd\integer.h">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\simd\integer.h">
       <Filter>SIMD Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\simd\matrix.h">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\simd\matrix.h">
       <Filter>SIMD Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\simd\neon.h">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\simd\neon.h">
       <Filter>SIMD Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\simd\packing.h">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\simd\packing.h">
       <Filter>SIMD Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\simd\platform.h">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\simd\platform.h">
       <Filter>SIMD Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\simd\trigonometric.h">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\simd\trigonometric.h">
       <Filter>SIMD Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\simd\vector_relational.h">
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\simd\vector_relational.h">
       <Filter>SIMD Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\glm\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\glm\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Natvis Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\util\glm.natvis" />
+    <Natvis Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\util\glm.natvis" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\CMakeLists.txt">
+    <None Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\CMakeLists.txt">
       <Filter>Text Files</Filter>
     </None>
-    <None Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\copying.txt">
+    <None Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\copying.txt">
       <Filter>Text Files</Filter>
     </None>
-    <None Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\manual.md">
+    <None Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\manual.md">
       <Filter>Text Files</Filter>
     </None>
-    <None Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\readme.md">
+    <None Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\readme.md">
       <Filter>Text Files</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Core Files">
-      <UniqueIdentifier>{2A5D6DEE-F4ED-3DB5-97A5-1F2E077CB5B6}</UniqueIdentifier>
+      <UniqueIdentifier>{B6E37F50-448F-3256-9E79-66F1627F9A6A}</UniqueIdentifier>
     </Filter>
     <Filter Include="EXT Files">
-      <UniqueIdentifier>{088280D2-842D-3149-8291-ED5C825A9882}</UniqueIdentifier>
+      <UniqueIdentifier>{DE1C1E53-9D53-3DC8-93E3-3DD48E0B7847}</UniqueIdentifier>
     </Filter>
     <Filter Include="GTC Files">
-      <UniqueIdentifier>{FBDB2165-34AF-3893-9B4B-CD879BFDA048}</UniqueIdentifier>
+      <UniqueIdentifier>{6B1BF31F-B87C-3DC6-AD1B-50A9B7B367E3}</UniqueIdentifier>
     </Filter>
     <Filter Include="GTX Files">
-      <UniqueIdentifier>{3338743C-3BF6-3504-96F3-638B8F2A688A}</UniqueIdentifier>
+      <UniqueIdentifier>{CCCB9447-783D-33CB-B425-5ACE2D16668A}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{BE7DD2F4-0167-335A-B43D-8F2034CED544}</UniqueIdentifier>
+      <UniqueIdentifier>{6A95D71F-0D8E-3E01-AB49-FD17F8D014A8}</UniqueIdentifier>
     </Filter>
     <Filter Include="SIMD Files">
-      <UniqueIdentifier>{88D7769B-DF09-3C9B-A70C-1AE08C6C7AAE}</UniqueIdentifier>
+      <UniqueIdentifier>{12548413-24E1-3FF5-987C-F081CEDDA6BD}</UniqueIdentifier>
     </Filter>
     <Filter Include="Text Files">
-      <UniqueIdentifier>{27B3DAC0-D0AA-3BE1-88CE-2B49BAF2D673}</UniqueIdentifier>
+      <UniqueIdentifier>{82ED59E8-B96A-3923-8ACB-B853405636A5}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

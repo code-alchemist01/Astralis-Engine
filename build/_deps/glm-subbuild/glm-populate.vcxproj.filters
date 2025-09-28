@@ -1,44 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-subbuild\CMakeFiles\5054f5c13d60bb639ad273d0e19eba66\glm-populate-mkdir.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-subbuild\CMakeFiles\38515efa972dc7c73e0d7f589a9cc7dd\glm-populate-mkdir.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-subbuild\CMakeFiles\5054f5c13d60bb639ad273d0e19eba66\glm-populate-download.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-subbuild\CMakeFiles\38515efa972dc7c73e0d7f589a9cc7dd\glm-populate-download.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-subbuild\CMakeFiles\5054f5c13d60bb639ad273d0e19eba66\glm-populate-update.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-subbuild\CMakeFiles\38515efa972dc7c73e0d7f589a9cc7dd\glm-populate-update.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-subbuild\CMakeFiles\5054f5c13d60bb639ad273d0e19eba66\glm-populate-patch.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-subbuild\CMakeFiles\38515efa972dc7c73e0d7f589a9cc7dd\glm-populate-patch.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-subbuild\CMakeFiles\5054f5c13d60bb639ad273d0e19eba66\glm-populate-configure.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-subbuild\CMakeFiles\38515efa972dc7c73e0d7f589a9cc7dd\glm-populate-configure.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-subbuild\CMakeFiles\5054f5c13d60bb639ad273d0e19eba66\glm-populate-build.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-subbuild\CMakeFiles\38515efa972dc7c73e0d7f589a9cc7dd\glm-populate-build.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-subbuild\CMakeFiles\5054f5c13d60bb639ad273d0e19eba66\glm-populate-install.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-subbuild\CMakeFiles\38515efa972dc7c73e0d7f589a9cc7dd\glm-populate-install.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-subbuild\CMakeFiles\5054f5c13d60bb639ad273d0e19eba66\glm-populate-test.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-subbuild\CMakeFiles\38515efa972dc7c73e0d7f589a9cc7dd\glm-populate-test.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-subbuild\CMakeFiles\8fde45952e464bd95c55f7c13df93005\glm-populate-complete.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-subbuild\CMakeFiles\67e917d0aeca3b9cf4b99a808826b2bb\glm-populate-complete.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-subbuild\CMakeFiles\61a31b9c4f81e03dc9658a3148a8696d\glm-populate.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-subbuild\CMakeFiles\4aca009ab88dee65ca86025c4d40e1b8\glm-populate.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-subbuild\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-subbuild\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-subbuild\CMakeFiles\glm-populate" />
+    <None Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-subbuild\CMakeFiles\glm-populate" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{BCCB68BA-0B4F-3833-935C-793F1ED5CEEA}</UniqueIdentifier>
+      <UniqueIdentifier>{42F3A1FF-4144-3678-81FC-409927DD7AC5}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

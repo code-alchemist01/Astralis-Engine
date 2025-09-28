@@ -1,16 +1,18 @@
 #version 330 core
 
+// Inputs from vertex shader
 in vec2 TexCoord;
-in vec3 FragPos;
-in vec3 ViewPos;
+in vec4 ParticleColor;
+in float Life;
+in vec3 WorldPos;
+in vec3 ViewDir;
+in float ParticleSize;
 
-uniform vec3 particleColor;
-uniform float alpha;
-uniform float temperature;
-uniform float intensity;
-uniform vec3 lightPos;
-uniform vec3 lightColor;
+// Uniforms
+uniform float time;
+uniform int particleType; // 0: solar flare, 1: cosmic dust, 2: stellar wind, 3: corona
 uniform vec3 viewPos;
+uniform float globalIntensity;
 
 out vec4 FragColor;
 
@@ -19,15 +21,19 @@ float hash(float n) {
     return fract(sin(n) * 43758.5453123);
 }
 
+float hash2(vec2 p) {
+    return fract(sin(dot(p, vec2(127.1, 311.7))) * 43758.5453);
+}
+
 float noise(vec2 p) {
     vec2 i = floor(p);
     vec2 f = fract(p);
     f = f * f * (3.0 - 2.0 * f);
     
-    float a = hash(i.x + i.y * 57.0);
-    float b = hash(i.x + 1.0 + i.y * 57.0);
-    float c = hash(i.x + (i.y + 1.0) * 57.0);
-    float d = hash(i.x + 1.0 + (i.y + 1.0) * 57.0);
+    float a = hash2(i);
+    float b = hash2(i + vec2(1.0, 0.0));
+    float c = hash2(i + vec2(0.0, 1.0));
+    float d = hash2(i + vec2(1.0, 1.0));
     
     return mix(mix(a, b, f.x), mix(c, d, f.x), f.y);
 }
@@ -37,7 +43,7 @@ float fbm(vec2 p) {
     float amplitude = 0.5;
     float frequency = 1.0;
     
-    for (int i = 0; i < 4; i++) {
+    for (int i = 0; i < 3; i++) {
         value += amplitude * noise(p * frequency);
         amplitude *= 0.5;
         frequency *= 2.0;
@@ -48,141 +54,99 @@ float fbm(vec2 p) {
 
 // Calculate temperature-based color
 vec3 calculateTemperatureColor(float temp) {
-    temp = clamp(temp, 1000.0, 10000.0);
-    float normalizedTemp = (temp - 1000.0) / 9000.0;
-    
-    vec3 color;
-    if (normalizedTemp < 0.5) {
-        // Red to yellow
-        color.r = 1.0;
-        color.g = normalizedTemp * 2.0;
-        color.b = 0.0;
+    // Temperature to color mapping (simplified blackbody radiation)
+    if (temp < 3000.0) {
+        return vec3(1.0, 0.3, 0.1); // Red
+    } else if (temp < 5000.0) {
+        return vec3(1.0, 0.7, 0.3); // Orange
+    } else if (temp < 7000.0) {
+        return vec3(1.0, 1.0, 0.8); // Yellow-white
     } else {
-        // Yellow to white to blue
-        float t = (normalizedTemp - 0.5) * 2.0;
-        color.r = 1.0;
-        color.g = 1.0;
-        color.b = t;
+        return vec3(0.8, 0.9, 1.0); // Blue-white
     }
-    
-    return color;
 }
 
-// Generate particle shape with soft edges
-float generateParticleShape(vec2 uv) {
-    float distance = length(uv - 0.5);
-    
-    // Add some noise for irregular shape
-    float noiseValue = fbm(uv * 8.0) * 0.1;
-    distance += noiseValue;
-    
-    // Soft circular falloff
-    float circle = 1.0 - smoothstep(0.3, 0.5, distance);
-    
-    // Add some sparkle effect for high-temperature particles
-    if (temperature > 5000.0) {
-        float sparkle = fbm(uv * 16.0 + temperature * 0.001) * 0.3;
-        circle += sparkle * (temperature / 10000.0);
-    }
-    
-    return circle;
+// Create circular particle shape with soft edges
+float createParticleShape(vec2 uv) {
+    float dist = length(uv - 0.5);
+    return 1.0 - smoothstep(0.3, 0.5, dist);
 }
 
-// Generate solar flare effects
-vec3 generateFlareEffect(vec2 uv, float flareIntensity) {
-    vec3 flareColor = vec3(1.0, 0.6, 0.2);
-    
-    // Create streaks
-    float streak1 = abs(sin((uv.x - 0.5) * 20.0)) * 0.1;
-    float streak2 = abs(sin((uv.y - 0.5) * 15.0)) * 0.1;
-    
-    // Add turbulence
-    float turbulence = fbm(uv * 12.0 + flareIntensity) * 0.3;
-    
-    return flareColor * (streak1 + streak2 + turbulence) * flareIntensity;
+// Create energy field effect
+float createEnergyField(vec2 uv, float time) {
+    vec2 p = uv * 4.0;
+    float field = fbm(p + time * 0.5);
+    field += fbm(p * 2.0 - time * 0.3) * 0.5;
+    return field;
 }
 
-// Generate cosmic dust effects
-vec3 generateDustEffect(vec2 uv) {
-    vec3 dustColor = vec3(0.6, 0.5, 0.4);
-    
-    // Create dust grain texture
-    float grain = fbm(uv * 32.0) * 0.5;
-    float density = fbm(uv * 8.0) * 0.3;
-    
-    return dustColor * (grain + density);
-}
-
-// Generate stellar wind effects
-vec3 generateWindEffect(vec2 uv, float windStrength) {
-    vec3 windColor = vec3(0.8, 0.9, 1.0);
-    
-    // Create flowing patterns
-    float flow = sin(uv.x * 10.0 + windStrength * 5.0) * 0.2;
-    float turbulence = fbm(uv * 6.0 + windStrength) * 0.4;
-    
-    return windColor * (flow + turbulence) * windStrength;
-}
-
-void main() {
+void main()
+{
     vec2 uv = TexCoord;
+    vec3 finalColor = ParticleColor.rgb;
+    float finalAlpha = ParticleColor.a;
     
-    // Generate base particle shape
-    float particleShape = generateParticleShape(uv);
+    // Create base particle shape
+    float shape = createParticleShape(uv);
     
-    if (particleShape < 0.01) {
-        discard;
+    // Apply particle type-specific effects
+    if (particleType == 0) { // Solar flare
+        // Intense, flickering energy
+        float energy = createEnergyField(uv, time * 2.0);
+        float flicker = 0.8 + 0.2 * sin(time * 10.0 + WorldPos.x);
+        
+        finalColor = mix(vec3(1.0, 0.3, 0.1), vec3(1.0, 0.8, 0.2), energy);
+        finalColor *= (1.0 + energy * 0.5) * flicker;
+        finalAlpha *= (1.0 - Life * 0.3); // Fade over time
+        
+    } else if (particleType == 1) { // Cosmic dust
+        // Subtle, twinkling particles
+        float twinkle = 0.7 + 0.3 * sin(time * 3.0 + WorldPos.y);
+        float dustNoise = noise(uv * 8.0 + time * 0.1);
+        
+        finalColor = vec3(0.6, 0.7, 0.9) * (0.5 + dustNoise * 0.5);
+        finalColor *= twinkle;
+        finalAlpha *= (0.3 + Life * 0.4); // Grow brighter over time
+        
+    } else if (particleType == 2) { // Stellar wind
+        // Fast-moving, streaky particles
+        float speed = length(ViewDir);
+        float streak = 1.0 + speed * 0.5;
+        
+        // Create elongated shape for motion blur
+        vec2 stretchedUV = uv;
+        stretchedUV.x *= (1.0 + speed * 0.3);
+        shape = createParticleShape(stretchedUV);
+        
+        finalColor = vec3(0.8, 0.9, 1.0) * streak;
+        finalAlpha *= (1.0 - Life * 0.7); // Quick fade
+        
+    } else if (particleType == 3) { // Corona
+        // Glowing, pulsing corona particles
+        float pulse = 0.6 + 0.4 * sin(time * 1.5 + WorldPos.z);
+        float corona = createEnergyField(uv, time * 0.8);
+        
+        finalColor = calculateTemperatureColor(6000.0 + corona * 2000.0);
+        finalColor *= pulse * (1.0 + corona * 0.3);
+        finalAlpha *= (0.8 - Life * 0.2); // Slow fade
     }
     
-    // Start with base particle color
-    vec3 finalColor = particleColor;
+    // Apply distance-based fading
+    float distanceToCamera = length(viewPos - WorldPos);
+    float distanceFade = 1.0 - smoothstep(500.0, 1000.0, distanceToCamera);
     
-    // Apply temperature-based coloring
-    if (temperature > 2000.0) {
-        vec3 tempColor = calculateTemperatureColor(temperature);
-        finalColor = mix(finalColor, tempColor, 0.7);
-    }
+    // Apply global intensity
+    finalColor *= globalIntensity;
     
-    // Add type-specific effects based on intensity
-    if (intensity > 0.5) {
-        // Solar flare effects
-        vec3 flareEffect = generateFlareEffect(uv, intensity);
-        finalColor += flareEffect;
-    } else if (temperature < 1000.0) {
-        // Cosmic dust effects
-        vec3 dustEffect = generateDustEffect(uv);
-        finalColor = mix(finalColor, dustEffect, 0.6);
-    } else if (temperature > 100000.0) {
-        // Stellar wind effects
-        vec3 windEffect = generateWindEffect(uv, intensity);
-        finalColor += windEffect * 0.5;
-    }
+    // Combine shape, color, and alpha
+    finalAlpha *= shape * distanceFade;
     
-    // Calculate distance-based lighting
-    vec3 lightDir = normalize(lightPos - FragPos);
-    float distance = length(lightPos - FragPos);
-    float attenuation = 1.0 / (1.0 + 0.01 * distance + 0.001 * distance * distance);
+    // Add subtle glow effect
+    float glow = shape * 0.3;
+    finalColor += glow;
     
-    // Simple lighting
-    float ambient = 0.3;
-    float diffuse = max(dot(vec3(0.0, 0.0, 1.0), lightDir), 0.0);
-    vec3 lighting = (ambient + diffuse * attenuation) * lightColor;
-    
-    finalColor *= lighting;
-    
-    // Add bloom effect for bright particles
-    if (temperature > 5000.0 || intensity > 0.8) {
-        float bloom = (temperature / 10000.0 + intensity) * 0.3;
-        finalColor += finalColor * bloom;
-    }
-    
-    // Apply particle shape and alpha
-    float finalAlpha = particleShape * alpha;
-    
-    // Distance fade
-    float viewDistance = length(viewPos - FragPos);
-    float distanceFade = 1.0 / (1.0 + viewDistance * 0.001);
-    finalAlpha *= distanceFade;
+    // Ensure we don't exceed maximum brightness
+    finalColor = min(finalColor, vec3(2.0));
     
     FragColor = vec4(finalColor, finalAlpha);
 }

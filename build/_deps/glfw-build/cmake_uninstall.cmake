@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glfw-build/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glfw-build/install_manifest.txt\"")
+if (NOT EXISTS "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/glfw-build/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/glfw-build/install_manifest.txt\"")
 endif()
 
-file(READ "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glfw-build/install_manifest.txt" files)
+file(READ "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/glfw-build/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

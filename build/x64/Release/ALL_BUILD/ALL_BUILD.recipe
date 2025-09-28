@@ -2,13 +2,13 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\x64\Release\ZERO_CHECK</FullPath>
+      <FullPath>C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\x64\Release\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\Release\procedural_universe.exe</FullPath>
+      <FullPath>C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\Release\procedural_universe.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\x64\Release\ALL_BUILD</FullPath>
+      <FullPath>C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\x64\Release\ALL_BUILD</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

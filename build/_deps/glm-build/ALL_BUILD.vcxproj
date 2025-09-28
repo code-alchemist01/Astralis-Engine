@@ -25,7 +25,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{E26694AE-6715-381B-A6C3-6A451999DF67}</ProjectGuid>
+    <ProjectGuid>{F85CB9AA-E9E3-305C-B3A2-15C98AC63F40}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -108,11 +108,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-src\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-src\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glm-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/glm-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni" "-BC:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build" --check-stamp-file "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glm-build/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine" "-BC:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build" --check-stamp-file "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/glm-build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -120,12 +120,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\GNUInstallDirs.cmake;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\GNUInstallDirs.cmake;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glm-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/glm-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni" "-BC:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build" --check-stamp-file "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glm-build/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine" "-BC:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build" --check-stamp-file "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/glm-build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -133,12 +133,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\GNUInstallDirs.cmake;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\GNUInstallDirs.cmake;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glm-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/glm-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni" "-BC:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build" --check-stamp-file "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glm-build/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine" "-BC:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build" --check-stamp-file "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/glm-build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -146,12 +146,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\GNUInstallDirs.cmake;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\GNUInstallDirs.cmake;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glm-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/glm-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni" "-BC:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build" --check-stamp-file "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glm-build/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine" "-BC:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build" --check-stamp-file "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/glm-build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -159,8 +159,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\GNUInstallDirs.cmake;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\GNUInstallDirs.cmake;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
@@ -168,14 +168,14 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\ZERO_CHECK.vcxproj">
-      <Project>{D7EACC4D-0646-3B56-8FBA-47739901ED77}</Project>
+    <ProjectReference Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\ZERO_CHECK.vcxproj">
+      <Project>{94522C92-24D5-3CC9-BB31-C2AEAC636F5A}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glm-build\glm\glm.vcxproj">
-      <Project>{A9A13E7B-C4A6-3F13-9C13-7052E54618ED}</Project>
+    <ProjectReference Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glm-build\glm\glm.vcxproj">
+      <Project>{F6A9F73C-6264-3855-AD09-D0791BAD0838}</Project>
       <Name>glm</Name>
     </ProjectReference>
   </ItemGroup>

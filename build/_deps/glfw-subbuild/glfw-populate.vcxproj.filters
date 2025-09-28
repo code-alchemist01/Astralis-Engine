@@ -1,44 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glfw-subbuild\CMakeFiles\955cb65b8890ebfbf0df86387528fab1\glfw-populate-mkdir.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glfw-subbuild\CMakeFiles\794e12cac000dd0e73aab64853529acf\glfw-populate-mkdir.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glfw-subbuild\CMakeFiles\955cb65b8890ebfbf0df86387528fab1\glfw-populate-download.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glfw-subbuild\CMakeFiles\794e12cac000dd0e73aab64853529acf\glfw-populate-download.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glfw-subbuild\CMakeFiles\955cb65b8890ebfbf0df86387528fab1\glfw-populate-update.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glfw-subbuild\CMakeFiles\794e12cac000dd0e73aab64853529acf\glfw-populate-update.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glfw-subbuild\CMakeFiles\955cb65b8890ebfbf0df86387528fab1\glfw-populate-patch.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glfw-subbuild\CMakeFiles\794e12cac000dd0e73aab64853529acf\glfw-populate-patch.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glfw-subbuild\CMakeFiles\955cb65b8890ebfbf0df86387528fab1\glfw-populate-configure.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glfw-subbuild\CMakeFiles\794e12cac000dd0e73aab64853529acf\glfw-populate-configure.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glfw-subbuild\CMakeFiles\955cb65b8890ebfbf0df86387528fab1\glfw-populate-build.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glfw-subbuild\CMakeFiles\794e12cac000dd0e73aab64853529acf\glfw-populate-build.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glfw-subbuild\CMakeFiles\955cb65b8890ebfbf0df86387528fab1\glfw-populate-install.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glfw-subbuild\CMakeFiles\794e12cac000dd0e73aab64853529acf\glfw-populate-install.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glfw-subbuild\CMakeFiles\955cb65b8890ebfbf0df86387528fab1\glfw-populate-test.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glfw-subbuild\CMakeFiles\794e12cac000dd0e73aab64853529acf\glfw-populate-test.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glfw-subbuild\CMakeFiles\6436bbe92071094e7c2e5971384e4df3\glfw-populate-complete.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glfw-subbuild\CMakeFiles\7c80cda590cf09686e494c82e01c53a3\glfw-populate-complete.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glfw-subbuild\CMakeFiles\d094c139082b64977f79c6aef0178bdd\glfw-populate.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glfw-subbuild\CMakeFiles\1afcd2b2942356ed9ca7d5f3e75150c6\glfw-populate.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glfw-subbuild\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glfw-subbuild\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glfw-subbuild\CMakeFiles\glfw-populate" />
+    <None Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glfw-subbuild\CMakeFiles\glfw-populate" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{6FBF9415-7994-31E8-B0A8-8AA6D03FE1B0}</UniqueIdentifier>
+      <UniqueIdentifier>{33C6B77E-20E1-3178-89C3-2046BA2DB718}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -1,6 +1,8 @@
 # CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake
 C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeGenericSystem.cmake
 C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeSystem.cmake.in
 C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeSystemSpecificInformation.cmake
 C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeSystemSpecificInitialize.cmake
 C:/Program Files/CMake/share/cmake-4.1/Modules/ExternalProject.cmake
@@ -15,6 +17,6 @@ C:/Program Files/CMake/share/cmake-4.1/Modules/ExternalProject/shared_internal_c
 C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-Initialize.cmake
 C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows.cmake
 C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/WindowsPaths.cmake
-C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glm-subbuild/CMakeFiles/4.1.1/CMakeSystem.cmake
-C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glm-subbuild/CMakeLists.txt
-C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glm-subbuild/glm-populate-prefix/tmp/glm-populate-mkdirs.cmake
+C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/glm-subbuild/CMakeFiles/4.1.1/CMakeSystem.cmake
+C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/glm-subbuild/CMakeLists.txt
+C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/glm-subbuild/glm-populate-prefix/tmp/glm-populate-mkdirs.cmake

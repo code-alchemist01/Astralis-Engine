@@ -1,8 +1,8 @@
-^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\YENI\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\955CB65B8890EBFBF0DF86387528FAB1\GLFW-POPULATE-MKDIR.RULE
+^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\ASTRALIS-ENGINE\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\794E12CAC000DD0E73AAB64853529ACF\GLFW-POPULATE-MKDIR.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glfw-subbuild/glfw-populate-prefix/tmp/glfw-populate-mkdirs.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/glfw-subbuild/glfw-populate-prefix/tmp/glfw-populate-mkdirs.cmake"
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-mkdir"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-mkdir"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -10,15 +10,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\YENI\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\955CB65B8890EBFBF0DF86387528FAB1\GLFW-POPULATE-DOWNLOAD.RULE
+^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\ASTRALIS-ENGINE\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\794E12CAC000DD0E73AAB64853529ACF\GLFW-POPULATE-DOWNLOAD.RULE
 setlocal
-cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps"
+cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps"
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glfw-subbuild/glfw-populate-prefix/tmp/glfw-populate-gitclone.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/glfw-subbuild/glfw-populate-prefix/tmp/glfw-populate-gitclone.cmake"
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-download"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-download"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -26,13 +26,13 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\YENI\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\955CB65B8890EBFBF0DF86387528FAB1\GLFW-POPULATE-UPDATE.RULE
+^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\ASTRALIS-ENGINE\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\794E12CAC000DD0E73AAB64853529ACF\GLFW-POPULATE-UPDATE.RULE
 setlocal
-cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glfw-src"
+cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glfw-src"
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glfw-subbuild/glfw-populate-prefix/tmp/glfw-populate-gitupdate.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/glfw-subbuild/glfw-populate-prefix/tmp/glfw-populate-gitupdate.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -40,11 +40,11 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\YENI\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\955CB65B8890EBFBF0DF86387528FAB1\GLFW-POPULATE-PATCH.RULE
+^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\ASTRALIS-ENGINE\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\794E12CAC000DD0E73AAB64853529ACF\GLFW-POPULATE-PATCH.RULE
 setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-patch"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-patch"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -52,31 +52,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\YENI\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\955CB65B8890EBFBF0DF86387528FAB1\GLFW-POPULATE-CONFIGURE.RULE
+^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\ASTRALIS-ENGINE\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\794E12CAC000DD0E73AAB64853529ACF\GLFW-POPULATE-CONFIGURE.RULE
 setlocal
-cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glfw-build"
-if %errorlevel% neq 0 goto :cmEnd
-C:
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-configure"
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\YENI\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\955CB65B8890EBFBF0DF86387528FAB1\GLFW-POPULATE-BUILD.RULE
-setlocal
-cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glfw-build"
+cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glfw-build"
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-build"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-configure"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -84,15 +68,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\YENI\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\955CB65B8890EBFBF0DF86387528FAB1\GLFW-POPULATE-INSTALL.RULE
+^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\ASTRALIS-ENGINE\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\794E12CAC000DD0E73AAB64853529ACF\GLFW-POPULATE-BUILD.RULE
 setlocal
-cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glfw-build"
+cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glfw-build"
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-install"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-build"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -100,15 +84,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\YENI\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\955CB65B8890EBFBF0DF86387528FAB1\GLFW-POPULATE-TEST.RULE
+^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\ASTRALIS-ENGINE\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\794E12CAC000DD0E73AAB64853529ACF\GLFW-POPULATE-INSTALL.RULE
 setlocal
-cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glfw-build"
+cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glfw-build"
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-test"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-install"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -116,13 +100,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\YENI\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\6436BBE92071094E7C2E5971384E4DF3\GLFW-POPULATE-COMPLETE.RULE
+^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\ASTRALIS-ENGINE\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\794E12CAC000DD0E73AAB64853529ACF\GLFW-POPULATE-TEST.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glfw-subbuild/CMakeFiles/Debug"
+cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\glfw-build"
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glfw-subbuild/CMakeFiles/Debug/glfw-populate-complete"
+C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-done"
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-test"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -130,7 +116,21 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\YENI\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\D094C139082B64977F79C6AEF0178BDD\GLFW-POPULATE.RULE
+^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\ASTRALIS-ENGINE\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\7C80CDA590CF09686E494C82E01C53A3\GLFW-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/glfw-subbuild/CMakeFiles/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/glfw-subbuild/CMakeFiles/Debug/glfw-populate-complete"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\ASTRALIS-ENGINE\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\1AFCD2B2942356ED9CA7D5F3E75150C6\GLFW-POPULATE.RULE
 setlocal
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -138,9 +138,9 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\YENI\BUILD\_DEPS\GLFW-SUBBUILD\CMAKELISTS.TXT
+^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\ASTRALIS-ENGINE\BUILD\_DEPS\GLFW-SUBBUILD\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glfw-subbuild" "-BC:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glfw-subbuild" --check-stamp-file "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glfw-subbuild/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/glfw-subbuild" "-BC:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/glfw-subbuild" --check-stamp-file "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/glfw-subbuild/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

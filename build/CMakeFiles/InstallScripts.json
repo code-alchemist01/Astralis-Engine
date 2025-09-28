@@ -1,12 +1,12 @@
 {
 	"InstallScripts" : 
 	[
-		"C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/cmake_install.cmake",
-		"C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glfw-build/cmake_install.cmake",
-		"C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glfw-build/src/cmake_install.cmake",
-		"C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glm-build/cmake_install.cmake",
-		"C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glm-build/glm/cmake_install.cmake",
-		"C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/spdlog-build/cmake_install.cmake"
+		"C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/cmake_install.cmake",
+		"C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/glfw-build/cmake_install.cmake",
+		"C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/glfw-build/src/cmake_install.cmake",
+		"C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/glm-build/cmake_install.cmake",
+		"C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/glm-build/glm/cmake_install.cmake",
+		"C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/spdlog-build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

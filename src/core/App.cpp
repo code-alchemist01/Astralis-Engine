@@ -382,6 +382,9 @@ void App::processCommandLine(int argc, char** argv) {
 void App::update(float deltaTime) {
     // Update camera with input
     if (camera_) {
+        // Update camera systems (transitions, modes, effects)
+        camera_->update(deltaTime);
+        
         // Process keyboard input for camera movement
         auto& inputManager = Core::InputManager::getInstance();
         
@@ -400,6 +403,19 @@ void App::update(float deltaTime) {
         if (inputManager.isKeyHeld(GLFW_KEY_D)) {
             spdlog::debug("D key held - moving right");
             camera_->processKeyboard(Camera::Movement::RIGHT, deltaTime);
+        }
+        if (inputManager.isKeyHeld(GLFW_KEY_Q)) {
+            camera_->processKeyboard(Camera::Movement::UP, deltaTime);
+        }
+        if (inputManager.isKeyHeld(GLFW_KEY_E)) {
+            camera_->processKeyboard(Camera::Movement::DOWN, deltaTime);
+        }
+        
+        // Speed boost with Shift
+        if (inputManager.isKeyHeld(GLFW_KEY_LEFT_SHIFT)) {
+            camera_->enableSpeedBoost(true);
+        } else {
+            camera_->enableSpeedBoost(false);
         }
         
         // Process mouse input for camera rotation (only when right mouse button is held)
@@ -694,7 +710,11 @@ void App::renderImGui() {
 
     // Camera control panel
     if (showCameraPanel_) {
-        ImGui::Begin("Camera Controls", &showCameraPanel_);
+        ImGui::Begin("Enhanced Camera Controls", &showCameraPanel_);
+        
+        // Camera Status
+        ImGui::Text("Camera Status");
+        ImGui::Separator();
         
         glm::vec3 pos = camera_->getPosition();
         ImGui::Text("Position: (%.2f, %.2f, %.2f)", pos.x, pos.y, pos.z);
@@ -702,10 +722,32 @@ void App::renderImGui() {
         glm::vec3 front = camera_->getFront();
         ImGui::Text("Direction: (%.2f, %.2f, %.2f)", front.x, front.y, front.z);
         
+        glm::vec3 velocity = camera_->getVelocity();
+        ImGui::Text("Velocity: (%.2f, %.2f, %.2f)", velocity.x, velocity.y, velocity.z);
+        
+        // Camera Mode Selection
+        ImGui::Spacing();
+        ImGui::Text("Camera Mode");
+        ImGui::Separator();
+        
+        static int currentMode = 0;
+        const char* modes[] = {"Free Fly", "Orbit", "Follow", "Cinematic", "First Person", "Planetary Surface"};
+        
+        if (ImGui::Combo("Mode", &currentMode, modes, IM_ARRAYSIZE(modes))) {
+            camera_->setMode(static_cast<Camera::Mode>(currentMode));
+        }
+        
+        // Basic Controls
+        ImGui::Spacing();
+        ImGui::Text("Basic Controls");
+        ImGui::Separator();
+        
         static float moveSpeed = 5.0f;
         static float mouseSensitivity = 0.1f;
+        static float speedMultiplier = 1.0f;
+        static float boostMultiplier = 5.0f;
         
-        if (ImGui::SliderFloat("Move Speed", &moveSpeed, 0.1f, 20.0f)) {
+        if (ImGui::SliderFloat("Move Speed", &moveSpeed, 0.1f, 50.0f)) {
             camera_->setMovementSpeed(moveSpeed);
         }
         
@@ -713,11 +755,165 @@ void App::renderImGui() {
             camera_->setMouseSensitivity(mouseSensitivity);
         }
         
-        if (ImGui::Button("Reset Camera")) {
-            camera_->setPosition(glm::vec3(0.0f, 0.0f, 3.0f));
-            camera_->setYaw(-90.0f);
-            camera_->setPitch(0.0f);
+        if (ImGui::SliderFloat("Speed Multiplier", &speedMultiplier, 0.1f, 10.0f)) {
+            camera_->setSpeedMultiplier(speedMultiplier);
         }
+        
+        if (ImGui::SliderFloat("Boost Multiplier", &boostMultiplier, 1.0f, 20.0f)) {
+            camera_->setBoostMultiplier(boostMultiplier);
+        }
+        
+        // Orbit Controls (when in orbit mode)
+        if (currentMode == 1) { // Orbit mode
+            ImGui::Spacing();
+            ImGui::Text("Orbit Controls");
+            ImGui::Separator();
+            
+            static float orbitDistance = 200.0f;
+            static float orbitSpeed = 1.0f;
+            static float orbitHeight = 0.0f;
+            
+            if (ImGui::SliderFloat("Orbit Distance", &orbitDistance, 50.0f, 1000.0f)) {
+                camera_->setOrbitDistance(orbitDistance);
+            }
+            
+            if (ImGui::SliderFloat("Orbit Speed", &orbitSpeed, 0.1f, 5.0f)) {
+                camera_->setOrbitSpeed(orbitSpeed);
+            }
+            
+            if (ImGui::SliderFloat("Orbit Height", &orbitHeight, -100.0f, 100.0f)) {
+                camera_->setOrbitHeight(orbitHeight);
+            }
+            
+            if (ImGui::Button("Set Target to Sun")) {
+                camera_->setTarget(glm::vec3(0.0f, 0.0f, 0.0f));
+            }
+        }
+        
+        // Follow Controls (when in follow mode)
+        if (currentMode == 2) { // Follow mode
+            ImGui::Spacing();
+            ImGui::Text("Follow Controls");
+            ImGui::Separator();
+            
+            static float followDistance = 100.0f;
+            static float followHeight = 20.0f;
+            static float followSmoothing = 2.0f;
+            static bool autoFollowEnabled = false;
+            
+            if (ImGui::Checkbox("Auto Follow", &autoFollowEnabled)) {
+                camera_->enableAutoFollow(autoFollowEnabled);
+            }
+            
+            if (ImGui::SliderFloat("Follow Distance", &followDistance, 10.0f, 500.0f)) {
+                camera_->setFollowDistance(followDistance);
+            }
+            
+            if (ImGui::SliderFloat("Follow Height", &followHeight, -50.0f, 100.0f)) {
+                camera_->setFollowHeight(followHeight);
+            }
+            
+            if (ImGui::SliderFloat("Follow Smoothing", &followSmoothing, 0.1f, 10.0f)) {
+                camera_->setFollowSmoothing(followSmoothing);
+            }
+        }
+        
+        // Smooth Transitions
+        ImGui::Spacing();
+        ImGui::Text("Smooth Transitions");
+        ImGui::Separator();
+        
+        static float transitionDuration = 2.0f;
+        static int transitionType = 3; // EASE_IN_OUT
+        const char* transitionTypes[] = {"Linear", "Ease In", "Ease Out", "Ease In-Out", "Smooth Step"};
+        
+        ImGui::SliderFloat("Transition Duration", &transitionDuration, 0.5f, 10.0f);
+        ImGui::Combo("Transition Type", &transitionType, transitionTypes, IM_ARRAYSIZE(transitionTypes));
+        
+        if (ImGui::Button("Transition to Sun")) {
+            camera_->transitionToTarget(glm::vec3(0.0f, 0.0f, 0.0f), 300.0f, transitionDuration, 
+                                      static_cast<Camera::TransitionType>(transitionType));
+        }
+        
+        ImGui::SameLine();
+        if (ImGui::Button("Transition to Origin")) {
+            camera_->transitionToPosition(glm::vec3(0.0f, 0.0f, 100.0f), transitionDuration, 
+                                        static_cast<Camera::TransitionType>(transitionType));
+        }
+        
+        // Cinematic Controls
+        ImGui::Spacing();
+        ImGui::Text("Cinematic Controls");
+        ImGui::Separator();
+        
+        static bool cinematicPlaying = false;
+        cinematicPlaying = camera_->isCinematicPlaying();
+        
+        ImGui::Text("Status: %s", cinematicPlaying ? "Playing" : "Stopped");
+        
+        if (ImGui::Button("Start Solar System Tour")) {
+            std::vector<glm::vec3> waypoints = {
+                glm::vec3(0.0f, 0.0f, 500.0f),    // Far view
+                glm::vec3(200.0f, 100.0f, 200.0f), // Side view
+                glm::vec3(0.0f, 200.0f, 0.0f),     // Top view
+                glm::vec3(-200.0f, 50.0f, 200.0f), // Another angle
+                glm::vec3(0.0f, 0.0f, 100.0f)      // Close view
+            };
+            camera_->startCinematicPath(waypoints, 15.0f);
+            camera_->playCinematicSequence();
+        }
+        
+        ImGui::SameLine();
+        if (ImGui::Button("Stop Cinematic")) {
+            camera_->stopCinematicSequence();
+        }
+        
+        // Camera Effects
+        ImGui::Spacing();
+        ImGui::Text("Camera Effects");
+        ImGui::Separator();
+        
+        static float shakeIntensity = 1.0f;
+        static float shakeDuration = 1.0f;
+        static bool motionBlur = false;
+        
+        ImGui::SliderFloat("Shake Intensity", &shakeIntensity, 0.1f, 10.0f);
+        ImGui::SliderFloat("Shake Duration", &shakeDuration, 0.1f, 5.0f);
+        
+        if (ImGui::Button("Add Camera Shake")) {
+            camera_->addCameraShake(shakeIntensity, shakeDuration);
+        }
+        
+        if (ImGui::Checkbox("Motion Blur", &motionBlur)) {
+            camera_->enableMotionBlur(motionBlur);
+        }
+        
+        // Quick Actions
+        ImGui::Spacing();
+        ImGui::Text("Quick Actions");
+        ImGui::Separator();
+        
+        if (ImGui::Button("Reset Camera")) {
+            camera_->resetToDefault();
+        }
+        
+        ImGui::SameLine();
+        if (ImGui::Button("Save State")) {
+            camera_->saveCurrentState();
+        }
+        
+        ImGui::SameLine();
+        if (ImGui::Button("Restore State")) {
+            camera_->restoreSavedState();
+        }
+        
+        // Status Indicators
+        ImGui::Spacing();
+        ImGui::Text("Status");
+        ImGui::Separator();
+        
+        ImGui::Text("Transitioning: %s", camera_->isTransitioning() ? "Yes" : "No");
+        ImGui::Text("Distance to Target: %.2f", camera_->getDistanceToTarget());
         
         ImGui::End();
     }

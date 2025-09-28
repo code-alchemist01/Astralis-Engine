@@ -10,7 +10,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{EA97762A-2204-33F9-9E46-35C2AECFE5C5}</ProjectGuid>
+    <ProjectGuid>{724A43D7-B806-312D-A3A7-F0E38FC7E2BD}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -46,13 +46,13 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\CMakeFiles\5cb35fcc902241147c27d246c5368fca\fastnoiselite-populate-mkdir.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\CMakeFiles\a84adca9609b27f4164b8169ac6f2eb6\fastnoiselite-populate-mkdir.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating directories for 'fastnoiselite-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/fastnoiselite-subbuild/fastnoiselite-populate-prefix/tmp/fastnoiselite-populate-mkdirs.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/fastnoiselite-subbuild/fastnoiselite-populate-prefix/tmp/fastnoiselite-populate-mkdirs.cmake"
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/fastnoiselite-subbuild/fastnoiselite-populate-prefix/src/fastnoiselite-populate-stamp/Debug/fastnoiselite-populate-mkdir"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/fastnoiselite-subbuild/fastnoiselite-populate-prefix/src/fastnoiselite-populate-stamp/Debug/fastnoiselite-populate-mkdir"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -61,21 +61,21 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-mkdir</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\CMakeFiles\5cb35fcc902241147c27d246c5368fca\fastnoiselite-populate-download.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\CMakeFiles\a84adca9609b27f4164b8169ac6f2eb6\fastnoiselite-populate-download.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing download step (git clone) for 'fastnoiselite-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps"
+cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps"
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/fastnoiselite-subbuild/fastnoiselite-populate-prefix/tmp/fastnoiselite-populate-gitclone.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/fastnoiselite-subbuild/fastnoiselite-populate-prefix/tmp/fastnoiselite-populate-gitclone.cmake"
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/fastnoiselite-subbuild/fastnoiselite-populate-prefix/src/fastnoiselite-populate-stamp/Debug/fastnoiselite-populate-download"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/fastnoiselite-subbuild/fastnoiselite-populate-prefix/src/fastnoiselite-populate-stamp/Debug/fastnoiselite-populate-download"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -83,20 +83,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\fastnoiselite-populate-gitinfo.txt;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\fastnoiselite-populate-gitinfo.txt;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\CMakeFiles\5cb35fcc902241147c27d246c5368fca\fastnoiselite-populate-update.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\CMakeFiles\a84adca9609b27f4164b8169ac6f2eb6\fastnoiselite-populate-update.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing update step for 'fastnoiselite-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-src"
+cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-src"
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/fastnoiselite-subbuild/fastnoiselite-populate-prefix/tmp/fastnoiselite-populate-gitupdate.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/fastnoiselite-subbuild/fastnoiselite-populate-prefix/tmp/fastnoiselite-populate-gitupdate.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -104,19 +104,19 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\tmp\fastnoiselite-populate-gitupdate.cmake;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\fastnoiselite-populate-update-info.txt;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\tmp\fastnoiselite-populate-gitupdate.cmake;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\fastnoiselite-populate-update-info.txt;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\CMakeFiles\5cb35fcc902241147c27d246c5368fca\fastnoiselite-populate-patch.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\CMakeFiles\a84adca9609b27f4164b8169ac6f2eb6\fastnoiselite-populate-patch.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No patch step for 'fastnoiselite-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/fastnoiselite-subbuild/fastnoiselite-populate-prefix/src/fastnoiselite-populate-stamp/Debug/fastnoiselite-populate-patch"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/fastnoiselite-subbuild/fastnoiselite-populate-prefix/src/fastnoiselite-populate-stamp/Debug/fastnoiselite-populate-patch"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -124,24 +124,24 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\fastnoiselite-populate-patch-info.txt;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-update;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\fastnoiselite-populate-patch-info.txt;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\CMakeFiles\5cb35fcc902241147c27d246c5368fca\fastnoiselite-populate-configure.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\CMakeFiles\a84adca9609b27f4164b8169ac6f2eb6\fastnoiselite-populate-configure.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No configure step for 'fastnoiselite-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-build"
+cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-build"
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/fastnoiselite-subbuild/fastnoiselite-populate-prefix/src/fastnoiselite-populate-stamp/Debug/fastnoiselite-populate-configure"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/fastnoiselite-subbuild/fastnoiselite-populate-prefix/src/fastnoiselite-populate-stamp/Debug/fastnoiselite-populate-configure"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -149,23 +149,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\tmp\fastnoiselite-populate-cfgcmd.txt;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\tmp\fastnoiselite-populate-cfgcmd.txt;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\CMakeFiles\5cb35fcc902241147c27d246c5368fca\fastnoiselite-populate-build.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\CMakeFiles\a84adca9609b27f4164b8169ac6f2eb6\fastnoiselite-populate-build.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No build step for 'fastnoiselite-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-build"
+cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-build"
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/fastnoiselite-subbuild/fastnoiselite-populate-prefix/src/fastnoiselite-populate-stamp/Debug/fastnoiselite-populate-build"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/fastnoiselite-subbuild/fastnoiselite-populate-prefix/src/fastnoiselite-populate-stamp/Debug/fastnoiselite-populate-build"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -173,23 +173,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\CMakeFiles\5cb35fcc902241147c27d246c5368fca\fastnoiselite-populate-install.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\CMakeFiles\a84adca9609b27f4164b8169ac6f2eb6\fastnoiselite-populate-install.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No install step for 'fastnoiselite-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-build"
+cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-build"
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/fastnoiselite-subbuild/fastnoiselite-populate-prefix/src/fastnoiselite-populate-stamp/Debug/fastnoiselite-populate-install"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/fastnoiselite-subbuild/fastnoiselite-populate-prefix/src/fastnoiselite-populate-stamp/Debug/fastnoiselite-populate-install"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -197,23 +197,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\CMakeFiles\5cb35fcc902241147c27d246c5368fca\fastnoiselite-populate-test.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\CMakeFiles\a84adca9609b27f4164b8169ac6f2eb6\fastnoiselite-populate-test.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No test step for 'fastnoiselite-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-build"
+cd "C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-build"
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/fastnoiselite-subbuild/fastnoiselite-populate-prefix/src/fastnoiselite-populate-stamp/Debug/fastnoiselite-populate-test"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/fastnoiselite-subbuild/fastnoiselite-populate-prefix/src/fastnoiselite-populate-stamp/Debug/fastnoiselite-populate-test"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -221,21 +221,21 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-test</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-test</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\CMakeFiles\5efff11baeeb10f6248420ef235fe0d3\fastnoiselite-populate-complete.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\CMakeFiles\c8ecf2be042f92c1e69b8bc7ef85e112\fastnoiselite-populate-complete.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Completed 'fastnoiselite-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/fastnoiselite-subbuild/CMakeFiles/Debug"
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/fastnoiselite-subbuild/CMakeFiles/Debug"
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/fastnoiselite-subbuild/CMakeFiles/Debug/fastnoiselite-populate-complete"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/fastnoiselite-subbuild/CMakeFiles/Debug/fastnoiselite-populate-complete"
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/fastnoiselite-subbuild/fastnoiselite-populate-prefix/src/fastnoiselite-populate-stamp/Debug/fastnoiselite-populate-done"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/fastnoiselite-subbuild/fastnoiselite-populate-prefix/src/fastnoiselite-populate-stamp/Debug/fastnoiselite-populate-done"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -243,14 +243,14 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-install;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-mkdir;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-download;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-update;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-patch;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-configure;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-build;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\CMakeFiles\Debug\fastnoiselite-populate-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-install;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-mkdir;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-download;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-update;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-patch;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-configure;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-build;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\src\fastnoiselite-populate-stamp\Debug\fastnoiselite-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\CMakeFiles\Debug\fastnoiselite-populate-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\CMakeFiles\172d086c4728939683072e7ac0872196\fastnoiselite-populate.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\CMakeFiles\47270059e58dc24669f58d093479c733\fastnoiselite-populate.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
@@ -260,18 +260,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\CMakeFiles\Debug\fastnoiselite-populate-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\CMakeFiles\fastnoiselite-populate</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\CMakeFiles\Debug\fastnoiselite-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\CMakeFiles\fastnoiselite-populate</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/fastnoiselite-subbuild/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/fastnoiselite-subbuild/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/fastnoiselite-subbuild" "-BC:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/fastnoiselite-subbuild" --check-stamp-file "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/fastnoiselite-subbuild/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/fastnoiselite-subbuild" "-BC:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/fastnoiselite-subbuild" --check-stamp-file "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/Astralis-Engine/build/_deps/fastnoiselite-subbuild/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -279,19 +279,19 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\WindowsPaths.cmake;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\CMakeFiles\4.1.1\CMakeSystem.cmake;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\tmp\fastnoiselite-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\WindowsPaths.cmake;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\CMakeFiles\4.1.1\CMakeSystem.cmake;C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\fastnoiselite-populate-prefix\tmp\fastnoiselite-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\CMakeFiles\fastnoiselite-populate">
+    <None Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\CMakeFiles\fastnoiselite-populate">
     </None>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\ZERO_CHECK.vcxproj">
-      <Project>{8490C229-BDCF-3AD4-8CCA-C6CA0658C10E}</Project>
+    <ProjectReference Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{61CC22D4-FD6D-3CBA-805E-A106AB6DDE0A}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

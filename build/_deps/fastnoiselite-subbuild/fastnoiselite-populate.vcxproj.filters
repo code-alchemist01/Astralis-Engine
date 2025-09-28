@@ -1,44 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\CMakeFiles\5cb35fcc902241147c27d246c5368fca\fastnoiselite-populate-mkdir.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\CMakeFiles\a84adca9609b27f4164b8169ac6f2eb6\fastnoiselite-populate-mkdir.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\CMakeFiles\5cb35fcc902241147c27d246c5368fca\fastnoiselite-populate-download.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\CMakeFiles\a84adca9609b27f4164b8169ac6f2eb6\fastnoiselite-populate-download.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\CMakeFiles\5cb35fcc902241147c27d246c5368fca\fastnoiselite-populate-update.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\CMakeFiles\a84adca9609b27f4164b8169ac6f2eb6\fastnoiselite-populate-update.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\CMakeFiles\5cb35fcc902241147c27d246c5368fca\fastnoiselite-populate-patch.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\CMakeFiles\a84adca9609b27f4164b8169ac6f2eb6\fastnoiselite-populate-patch.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\CMakeFiles\5cb35fcc902241147c27d246c5368fca\fastnoiselite-populate-configure.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\CMakeFiles\a84adca9609b27f4164b8169ac6f2eb6\fastnoiselite-populate-configure.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\CMakeFiles\5cb35fcc902241147c27d246c5368fca\fastnoiselite-populate-build.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\CMakeFiles\a84adca9609b27f4164b8169ac6f2eb6\fastnoiselite-populate-build.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\CMakeFiles\5cb35fcc902241147c27d246c5368fca\fastnoiselite-populate-install.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\CMakeFiles\a84adca9609b27f4164b8169ac6f2eb6\fastnoiselite-populate-install.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\CMakeFiles\5cb35fcc902241147c27d246c5368fca\fastnoiselite-populate-test.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\CMakeFiles\a84adca9609b27f4164b8169ac6f2eb6\fastnoiselite-populate-test.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\CMakeFiles\5efff11baeeb10f6248420ef235fe0d3\fastnoiselite-populate-complete.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\CMakeFiles\c8ecf2be042f92c1e69b8bc7ef85e112\fastnoiselite-populate-complete.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\CMakeFiles\172d086c4728939683072e7ac0872196\fastnoiselite-populate.rule">
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\CMakeFiles\47270059e58dc24669f58d093479c733\fastnoiselite-populate.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\fastnoiselite-subbuild\CMakeFiles\fastnoiselite-populate" />
+    <None Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\build\_deps\fastnoiselite-subbuild\CMakeFiles\fastnoiselite-populate" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{A8426A9D-E537-31A3-9658-F71E1DFFACC1}</UniqueIdentifier>
+      <UniqueIdentifier>{3E4AC94F-5E78-3C17-8CEF-9D942BFA9058}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
