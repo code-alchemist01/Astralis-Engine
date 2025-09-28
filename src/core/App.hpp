@@ -18,6 +18,7 @@ class Noise;
 class Planet;
 class PlanetManager;
 class SolarSystemManager;
+class ConfigManager;
 namespace Core { 
     class InputManager; 
     class Texture;
@@ -49,6 +50,9 @@ private:
     void initImGui();
     void shutdownImGui();
     void renderImGui();
+    
+    // Utility methods
+    std::string getCurrentTimeString() const;
 
     std::unique_ptr<Window> window_;
     std::unique_ptr<Shader> basicShader_;
@@ -67,6 +71,7 @@ private:
     std::unique_ptr<Core::Texture> skyboxTexture_;
     std::unique_ptr<Noise> noise_;
     std::unique_ptr<SolarSystemManager> solarSystemManager_;
+    std::unique_ptr<ConfigManager> configManager_;
     bool running_ = true;
     uint64_t seed_ = 1337; // Default seed
     

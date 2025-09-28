@@ -1,0 +1,32 @@
+{
+  "version": "1.0.0",
+  "timestamp": 1759060157,
+  "camera": {
+    "position": [0, 20, 50],
+    "yaw": -90,
+    "pitch": -15,
+    "zoom": 45,
+    "mode": 0,
+    "movementSpeed": 2.5,
+    "mouseSensitivity": 0.1,
+    "motionBlurEnabled": false,
+    "orbitDistance": 200,
+    "orbitSpeed": 1,
+    "orbitHeight": 0,
+    "autoFollowEnabled": false,
+    "followDistance": 100,
+    "followHeight": 20,
+    "followSmoothing": 2
+  },
+  "solarSystem": {
+    "seed": -2120488124,
+    "systemScale": 1,
+    "timeScale": 1,
+    "asteroidsVisible": true,
+    "ringsVisible": true,
+    "particlesVisible": true,
+    "asteroidDensity": 1,
+    "ringDensity": 1,
+    "particleEmissionRate": 1
+  }
+}

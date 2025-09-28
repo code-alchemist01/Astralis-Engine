@@ -10,10 +10,13 @@
 #include "PlanetManager.hpp"
 #include "Sun.hpp"
 #include "SolarSystemManager.hpp"
+#include "ConfigManager.hpp"
 #include <iostream>
 #include <chrono>
 #include <thread>
 #include <spdlog/spdlog.h>
+#include <iomanip>
+#include <sstream>
 #define GLFW_INCLUDE_NONE
 #include <GLFW/glfw3.h>
 #include <glm/glm.hpp>
@@ -310,10 +313,29 @@ void App::init() {
         throw;
     }
     
+    // Initialize configuration manager
+    spdlog::info("Initializing configuration manager...");
+    try {
+        configManager_ = std::make_unique<ConfigManager>();
+        spdlog::info("Configuration manager initialized successfully");
+    } catch (const std::exception& e) {
+        spdlog::error("Failed to initialize configuration manager: {}", e.what());
+        throw;
+    }
+    
     // Initialize ImGui
     initImGui();
     
     spdlog::info("Application initialized successfully.");
+}
+
+std::string App::getCurrentTimeString() const {
+    auto now = std::chrono::system_clock::now();
+    auto time_t = std::chrono::system_clock::to_time_t(now);
+    
+    std::stringstream ss;
+    ss << std::put_time(std::localtime(&time_t), "%Y%m%d_%H%M%S");
+    return ss.str();
 }
 
 void App::loop() {
@@ -517,6 +539,82 @@ void App::render() {
         
         glm::vec3 viewPos = camera_->getPosition();
         
+        // Set motion blur uniforms for all shaders if motion blur is enabled
+        if (camera_->isMotionBlurEnabled()) {
+            glm::vec3 cameraVelocity = camera_->getVelocity();
+            
+            // Set velocity uniform for planet shader
+            if (planetShader_->isValid()) {
+                planetShader_->use();
+                planetShader_->setVec3("uCameraVelocity", cameraVelocity);
+                planetShader_->setBool("uMotionBlurEnabled", true);
+                planetShader_->unuse();
+            }
+            
+            // Set velocity uniform for sun shader
+            if (sunShader_->isValid()) {
+                sunShader_->use();
+                sunShader_->setVec3("uCameraVelocity", cameraVelocity);
+                sunShader_->setBool("uMotionBlurEnabled", true);
+                sunShader_->unuse();
+            }
+            
+            // Set velocity uniform for asteroid shader
+            if (asteroidShader_ && asteroidShader_->isValid()) {
+                asteroidShader_->use();
+                asteroidShader_->setVec3("uCameraVelocity", cameraVelocity);
+                asteroidShader_->setBool("uMotionBlurEnabled", true);
+                asteroidShader_->unuse();
+            }
+            
+            // Set velocity uniform for ring shader
+            if (ringShader_ && ringShader_->isValid()) {
+                ringShader_->use();
+                ringShader_->setVec3("uCameraVelocity", cameraVelocity);
+                ringShader_->setBool("uMotionBlurEnabled", true);
+                ringShader_->unuse();
+            }
+            
+            // Set velocity uniform for particle shader
+            if (particleShader_ && particleShader_->isValid()) {
+                particleShader_->use();
+                particleShader_->setVec3("uCameraVelocity", cameraVelocity);
+                particleShader_->setBool("uMotionBlurEnabled", true);
+                particleShader_->unuse();
+            }
+        } else {
+            // Disable motion blur for all shaders
+            if (planetShader_->isValid()) {
+                planetShader_->use();
+                planetShader_->setBool("uMotionBlurEnabled", false);
+                planetShader_->unuse();
+            }
+            
+            if (sunShader_->isValid()) {
+                sunShader_->use();
+                sunShader_->setBool("uMotionBlurEnabled", false);
+                sunShader_->unuse();
+            }
+            
+            if (asteroidShader_ && asteroidShader_->isValid()) {
+                asteroidShader_->use();
+                asteroidShader_->setBool("uMotionBlurEnabled", false);
+                asteroidShader_->unuse();
+            }
+            
+            if (ringShader_ && ringShader_->isValid()) {
+                ringShader_->use();
+                ringShader_->setBool("uMotionBlurEnabled", false);
+                ringShader_->unuse();
+            }
+            
+            if (particleShader_ && particleShader_->isValid()) {
+                particleShader_->use();
+                particleShader_->setBool("uMotionBlurEnabled", false);
+                particleShader_->unuse();
+            }
+        }
+        
         // Render entire solar system (sun provides lighting for planets)
         solarSystemManager_->render(planetShader_.get(), sunShader_.get(), asteroidShader_.get(), 
                                    ringShader_.get(), particleShader_.get(), camera_.get(), view, projection, viewPos);
@@ -656,7 +754,7 @@ void App::renderImGui() {
                 ImGui::Separator();
                 
                 static int currentMode = 0;
-                const char* modes[] = {"Free Fly", "Orbit", "Follow", "Cinematic"};
+                const char* modes[] = {"Free Fly", "Orbit", "Follow", "Cinematic", "First Person", "Planetary Surface"};
                 
                 if (ImGui::Combo("Mode", &currentMode, modes, IM_ARRAYSIZE(modes))) {
                     camera_->setMode(static_cast<Camera::Mode>(currentMode));
@@ -677,6 +775,12 @@ void App::renderImGui() {
                     camera_->setMouseSensitivity(mouseSensitivity);
                 }
                 
+                // Motion Blur setting
+                static bool motionBlurEnabled = false;
+                if (ImGui::Checkbox("Motion Blur", &motionBlurEnabled)) {
+                    camera_->enableMotionBlur(motionBlurEnabled);
+                }
+                
                 // Mode-specific controls
                 if (currentMode == 1) { // Orbit mode
                     ImGui::Spacing();
@@ -695,7 +799,35 @@ void App::renderImGui() {
                     }
                     
                     if (ImGui::Button("Target Sun", ImVec2(-1, 0))) {
-                        camera_->setTarget(glm::vec3(0.0f, 0.0f, 0.0f));
+                        if (solarSystemManager_ && solarSystemManager_->getSun()) {
+                            camera_->setTargetSun(solarSystemManager_->getSun());
+                        }
+                    }
+                    
+                    // Planet targeting buttons
+                    if (solarSystemManager_ && solarSystemManager_->getPlanetManager() && 
+                        solarSystemManager_->getPlanetManager()->getPlanetCount() > 0) {
+                        
+                        ImGui::Spacing();
+                        ImGui::Text("🪐 Target Planet");
+                        
+                        static int targetPlanetIndex = 0;
+                        int maxPlanets = static_cast<int>(solarSystemManager_->getPlanetManager()->getPlanetCount()) - 1;
+                        
+                        if (ImGui::SliderInt("Planet", &targetPlanetIndex, 0, maxPlanets)) {
+                            PlanetInstance* planet = solarSystemManager_->getPlanetManager()->getPlanet(targetPlanetIndex);
+                            if (planet) {
+                                camera_->setTarget(planet->position);
+                            }
+                        }
+                        
+                        if (ImGui::Button("Go to Planet", ImVec2(-1, 0))) {
+                            PlanetInstance* planet = solarSystemManager_->getPlanetManager()->getPlanet(targetPlanetIndex);
+                            if (planet) {
+                                camera_->setTarget(planet->position);
+                                camera_->transitionToTarget(planet->position, 100.0f, 2.0f, Camera::TransitionType::EASE_IN_OUT);
+                            }
+                        }
                     }
                 }
                 
@@ -804,6 +936,91 @@ void App::renderImGui() {
                 } else {
                     ImGui::Text("No planets available");
                     ImGui::Text("Generate a solar system first!");
+                }
+                
+                ImGui::EndTabItem();
+            }
+            
+            // Save/Load Tab
+            if (ImGui::BeginTabItem("Save/Load")) {
+                ImGui::Spacing();
+                
+                ImGui::Text("💾 Configuration Management");
+                ImGui::Separator();
+                
+                // Save section
+                ImGui::Text("Save Configuration:");
+                if (ImGui::Button("💾 Save Full Config", ImVec2(-1, 0))) {
+                    if (configManager_ && camera_ && solarSystemManager_) {
+                        std::string filename = "configs/full_config_" + getCurrentTimeString() + ".json";
+                        if (configManager_->saveConfig(filename, camera_.get(), solarSystemManager_.get())) {
+                            spdlog::info("Configuration saved to: {}", filename);
+                        } else {
+                            spdlog::error("Failed to save configuration");
+                        }
+                    }
+                }
+                
+                if (ImGui::Button("📷 Save Camera Only", ImVec2(-1, 0))) {
+                    if (configManager_ && camera_) {
+                        std::string filename = "configs/camera_config_" + getCurrentTimeString() + ".json";
+                        if (configManager_->saveCameraConfig(filename, camera_.get())) {
+                            spdlog::info("Camera configuration saved to: {}", filename);
+                        } else {
+                            spdlog::error("Failed to save camera configuration");
+                        }
+                    }
+                }
+                
+                ImGui::Spacing();
+                ImGui::Text("Load Configuration:");
+                
+                // Quick load buttons for recent configs
+                if (ImGui::Button("📂 Load Full Config", ImVec2(-1, 0))) {
+                    // Use the most recent config file
+                    if (configManager_ && camera_ && solarSystemManager_) {
+                        std::string filename = "configs/full_config_20250928_144917.json";
+                        if (configManager_->loadConfig(filename, camera_.get(), solarSystemManager_.get())) {
+                            // Update systemSeed_ to match the loaded configuration
+                            systemSeed_ = solarSystemManager_->getSeed();
+                            spdlog::info("Configuration loaded from: {}", filename);
+                        } else {
+                            spdlog::warn("Could not load configuration from: {}", filename);
+                        }
+                    }
+                }
+                
+                if (ImGui::Button("📷 Load Camera Only", ImVec2(-1, 0))) {
+                    if (configManager_ && camera_) {
+                        std::string filename = "configs/camera_config.json";
+                        if (configManager_->loadCameraConfig(filename, camera_.get())) {
+                            spdlog::info("Camera configuration loaded from: {}", filename);
+                        } else {
+                            spdlog::warn("Could not load camera configuration from: {}", filename);
+                        }
+                    }
+                }
+                
+                ImGui::Spacing();
+                ImGui::Text("📁 Quick Actions:");
+                ImGui::Separator();
+                
+                if (ImGui::Button("🔄 Auto-Save Current", ImVec2(-1, 0))) {
+                    if (configManager_ && camera_ && solarSystemManager_) {
+                        std::string filename = "configs/autosave.json";
+                        if (configManager_->saveConfig(filename, camera_.get(), solarSystemManager_.get())) {
+                            spdlog::info("Auto-saved configuration");
+                        }
+                    }
+                }
+                
+                if (ImGui::Button("⚡ Load Auto-Save", ImVec2(-1, 0))) {
+                    if (configManager_ && camera_ && solarSystemManager_) {
+                        std::string filename = "configs/autosave.json";
+                        if (configManager_->loadConfig(filename, camera_.get(), solarSystemManager_.get())) {
+                            spdlog::info("Loaded auto-saved configuration");
+                        }
+                    }
                 }
                 
                 ImGui::EndTabItem();

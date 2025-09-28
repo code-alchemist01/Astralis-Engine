@@ -17,12 +17,16 @@ SolarSystemManager::SolarSystemManager()
     , planetManager_(nullptr)
     , asteroidGeometry_(nullptr)
     , noise_(nullptr)
+    , currentSeed_(12345)
     , systemScale_(1.0f)
     , timeScale_(1.0f)
     , initialized_(false)
     , asteroidsVisible_(true)
     , ringsVisible_(true)
     , particlesVisible_(true)
+    , asteroidDensity_(1.0f)
+    , ringDensity_(1.0f)
+    , particleEmissionRate_(1.0f)
 {
 }
 
@@ -56,6 +60,9 @@ void SolarSystemManager::generateSolarSystem(int systemSeed, int planetCount) {
         spdlog::error("Cannot generate solar system: manager not initialized");
         return;
     }
+    
+    // Update current seed
+    currentSeed_ = systemSeed;
     
     spdlog::info("Generating solar system with seed {} and {} planets", systemSeed, planetCount);
     

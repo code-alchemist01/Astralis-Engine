@@ -10,6 +10,9 @@
     <ClCompile Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\src\core\Camera.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\src\core\ConfigManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\src\core\Geometry.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -61,6 +64,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\src\core\Camera.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\src\core\ConfigManager.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\Astralis-Engine\src\core\Geometry.hpp">

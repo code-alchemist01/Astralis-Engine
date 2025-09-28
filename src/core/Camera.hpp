@@ -111,6 +111,18 @@ public:
     glm::vec3 getTarget() const { return target_; }
     float getDistanceToTarget() const;
     glm::vec3 getVelocity() const { return velocity_; }
+    
+    // Additional getters for configuration
+    float getMovementSpeed() const { return movementSpeed_; }
+    float getMouseSensitivity() const { return mouseSensitivity_; }
+    bool isMotionBlurEnabled() const { return motionBlurEnabled_; }
+    float getOrbitDistance() const { return orbitDistance_; }
+    float getOrbitSpeed() const { return orbitSpeed_; }
+    float getOrbitHeight() const { return orbitHeight_; }
+    bool isAutoFollowEnabled() const { return autoFollowEnabled_; }
+    float getFollowDistance() const { return followDistance_; }
+    float getFollowHeight() const { return followHeight_; }
+    float getFollowSmoothing() const { return followSmoothing_; }
 
     // Setters
     void setPosition(const glm::vec3& position);
