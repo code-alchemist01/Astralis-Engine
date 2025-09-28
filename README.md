@@ -1,4 +1,4 @@
-# Procedural Universe Generator
+# Astralis Engine
 
 A 3D solar system simulation built with C++ and OpenGL. Explore randomly generated star systems with planets, moons, asteroid belts, and planetary rings.
 
