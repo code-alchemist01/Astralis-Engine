@@ -382,6 +382,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\Moon.hpp" />
     <ClCompile Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\Noise.cpp" />
     <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\Noise.hpp" />
+    <ClCompile Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\ParticleSystem.cpp" />
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\ParticleSystem.hpp" />
     <ClCompile Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\Planet.cpp" />
     <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\Planet.hpp" />
     <ClCompile Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\PlanetManager.cpp" />

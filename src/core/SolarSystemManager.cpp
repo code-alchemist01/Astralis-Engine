@@ -4,6 +4,7 @@
 #include "PlanetManager.hpp"
 #include "AsteroidBelt.hpp"
 #include "PlanetaryRings.hpp"
+#include "ParticleSystem.hpp"
 #include "Geometry.hpp"
 #include "Noise.hpp"
 #include "Shader.hpp"
@@ -21,6 +22,7 @@ SolarSystemManager::SolarSystemManager()
     , initialized_(false)
     , asteroidsVisible_(true)
     , ringsVisible_(true)
+    , particlesVisible_(true)
 {
 }
 
@@ -72,6 +74,9 @@ void SolarSystemManager::generateSolarSystem(int systemSeed, int planetCount) {
     // Generate planetary rings
     generatePlanetaryRings(systemSeed);
     
+    // Generate particle systems
+    generateParticleSystems(systemSeed);
+    
     spdlog::info("Solar system generated successfully");
 }
 
@@ -105,11 +110,18 @@ void SolarSystemManager::update(float deltaTime) {
             rings->update(scaledDeltaTime);
         }
     }
+    
+    // Update particle systems
+    for (auto& particleSystem : particleSystems_) {
+        if (particleSystem) {
+            particleSystem->update(scaledDeltaTime);
+        }
+    }
 }
 
 void SolarSystemManager::render(Shader* planetShader, Shader* sunShader, Shader* asteroidShader, 
-                               Shader* ringShader, const Camera* camera, const glm::mat4& view, 
-                               const glm::mat4& projection, const glm::vec3& viewPos) {
+                               Shader* ringShader, Shader* particleShader, const Camera* camera, 
+                               const glm::mat4& view, const glm::mat4& projection, const glm::vec3& viewPos) {
     if (!initialized_ || !camera) {
         return;
     }
@@ -141,6 +153,16 @@ void SolarSystemManager::render(Shader* planetShader, Shader* sunShader, Shader*
             if (rings && rings->isVisible()) {
                 rings->render(ringShader, camera, view, projection, 
                             sunPos, sunColor, viewPos);
+            }
+        }
+    }
+    
+    // Render particle systems
+    if (particlesVisible_ && particleShader) {
+        for (auto& particleSystem : particleSystems_) {
+            if (particleSystem && particleSystem->isActive()) {
+                particleSystem->render(particleShader, camera, view, projection, 
+                                     sunPos, sunColor, viewPos);
             }
         }
     }
@@ -309,4 +331,68 @@ void SolarSystemManager::setRingDensity(float density) {
             rings->setDensity(density);
         }
     }
+}
+
+void SolarSystemManager::setParticleSystemsVisible(bool visible) {
+    particlesVisible_ = visible;
+    for (auto& particleSystem : particleSystems_) {
+        if (particleSystem) {
+            particleSystem->setActive(visible);
+        }
+    }
+}
+
+void SolarSystemManager::setParticleEmissionRate(float rate) {
+    for (auto& particleSystem : particleSystems_) {
+        if (particleSystem) {
+            particleSystem->setEmissionRate(rate);
+        }
+    }
+}
+
+void SolarSystemManager::generateParticleSystems(int systemSeed) {
+    particleSystems_.clear();
+    
+    std::mt19937 rng(systemSeed);
+    std::uniform_real_distribution<float> positionDist(-50.0f, 50.0f);
+    std::uniform_int_distribution<int> particleCountDist(500, 2000);
+    
+    // Generate solar flare particle system near the sun
+    if (sun_) {
+        glm::vec3 sunPos = sun_->getPosition();
+        auto solarFlareSystem = std::make_unique<ParticleSystem>(
+            sunPos, ParticleType::SOLAR_FLARE, particleCountDist(rng)
+        );
+        solarFlareSystem->initialize();
+        particleSystems_.push_back(std::move(solarFlareSystem));
+        
+        // Generate corona particle system
+        auto coronaSystem = std::make_unique<ParticleSystem>(
+            sunPos, ParticleType::CORONA_PARTICLES, particleCountDist(rng)
+        );
+        coronaSystem->initialize();
+        particleSystems_.push_back(std::move(coronaSystem));
+    }
+    
+    // Generate cosmic dust clouds in random locations
+    for (int i = 0; i < 3; ++i) {
+        glm::vec3 dustPosition(positionDist(rng), positionDist(rng), positionDist(rng));
+        auto dustSystem = std::make_unique<ParticleSystem>(
+            dustPosition, ParticleType::COSMIC_DUST, particleCountDist(rng)
+        );
+        dustSystem->initialize();
+        particleSystems_.push_back(std::move(dustSystem));
+    }
+    
+    // Generate stellar wind system
+    if (sun_) {
+        glm::vec3 sunPos = sun_->getPosition();
+        auto stellarWindSystem = std::make_unique<ParticleSystem>(
+            sunPos, ParticleType::STELLAR_WIND, particleCountDist(rng)
+        );
+        stellarWindSystem->initialize();
+        particleSystems_.push_back(std::move(stellarWindSystem));
+    }
+    
+    spdlog::info("Generated {} particle systems", particleSystems_.size());
 }

@@ -22,6 +22,9 @@
     <ClCompile Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\Noise.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\ParticleSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\Planet.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -70,6 +73,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\Noise.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\ParticleSystem.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\Planet.hpp">

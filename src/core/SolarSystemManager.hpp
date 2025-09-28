@@ -8,6 +8,7 @@ class Sun;
 class PlanetManager;
 class AsteroidBelt;
 class PlanetaryRings;
+class ParticleSystem;
 class Noise;
 class Shader;
 class Camera;
@@ -52,14 +53,15 @@ public:
      * @param sunShader Shader for rendering the sun
      * @param asteroidShader Shader for rendering asteroids
      * @param ringShader Shader for rendering planetary rings
+     * @param particleShader Shader for rendering particle systems
      * @param camera Camera for rendering
      * @param view View matrix
      * @param projection Projection matrix
      * @param viewPos Camera position
      */
     void render(Shader* planetShader, Shader* sunShader, Shader* asteroidShader, 
-                Shader* ringShader, const Camera* camera, const glm::mat4& view, 
-                const glm::mat4& projection, const glm::vec3& viewPos);
+                Shader* ringShader, Shader* particleShader, const Camera* camera, 
+                const glm::mat4& view, const glm::mat4& projection, const glm::vec3& viewPos);
     
     /**
      * @brief Get the sun's position (light source)
@@ -127,12 +129,25 @@ public:
      * @param density Density multiplier (0.1 to 3.0)
      */
     void setRingDensity(float density);
+    
+    /**
+     * @brief Set particle systems visibility
+     * @param visible Whether particle systems should be visible
+     */
+    void setParticleSystemsVisible(bool visible);
+    
+    /**
+     * @brief Set particle emission rate
+     * @param rate Emission rate multiplier (0.1 to 5.0)
+     */
+    void setParticleEmissionRate(float rate);
 
 private:
     std::unique_ptr<Sun> sun_;
     std::unique_ptr<PlanetManager> planetManager_;
     std::vector<std::unique_ptr<AsteroidBelt>> asteroidBelts_;
     std::vector<std::unique_ptr<PlanetaryRings>> planetaryRings_;
+    std::vector<std::unique_ptr<ParticleSystem>> particleSystems_;
     std::unique_ptr<Geometry> asteroidGeometry_;
     Noise* noise_;
     
@@ -141,6 +156,7 @@ private:
     bool initialized_;
     bool asteroidsVisible_;
     bool ringsVisible_;
+    bool particlesVisible_;
     
     /**
      * @brief Setup the sun for the solar system
@@ -159,4 +175,10 @@ private:
      * @param systemSeed Seed for generation
      */
     void generatePlanetaryRings(int systemSeed);
+    
+    /**
+     * @brief Generate particle systems for stellar phenomena
+     * @param systemSeed Seed for generation
+     */
+    void generateParticleSystems(int systemSeed);
 };

@@ -58,6 +58,7 @@ private:
     std::unique_ptr<Shader> sunShader_;
     std::unique_ptr<Shader> asteroidShader_;
     std::unique_ptr<Shader> ringShader_;
+    std::unique_ptr<Shader> particleShader_;
     std::unique_ptr<Camera> camera_;
 
     std::unique_ptr<Geometry> skyboxGeometry_;

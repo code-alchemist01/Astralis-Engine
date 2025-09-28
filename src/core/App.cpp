@@ -212,6 +212,19 @@ void App::init() {
             throw;
         }
         
+        spdlog::info("Loading particle shader...");
+        try {
+            particleShader_ = std::make_unique<Shader>("assets/shaders/particle.vert", "assets/shaders/particle.frag");
+            if (!particleShader_->isValid()) {
+                spdlog::error("Particle shader is not valid!");
+                throw std::runtime_error("Failed to create particle shader");
+            }
+            spdlog::info("Particle shader loaded successfully");
+        } catch (const std::exception& e) {
+            spdlog::error("Exception during particle shader creation: {}", e.what());
+            throw;
+        }
+        
         spdlog::info("Shader system initialized successfully");
     } catch (const std::exception& e) {
         spdlog::error("Failed to initialize shader system: {}", e.what());
@@ -490,7 +503,7 @@ void App::render() {
         
         // Render entire solar system (sun provides lighting for planets)
         solarSystemManager_->render(planetShader_.get(), sunShader_.get(), asteroidShader_.get(), 
-                                   ringShader_.get(), camera_.get(), view, projection, viewPos);
+                                   ringShader_.get(), particleShader_.get(), camera_.get(), view, projection, viewPos);
     }
     
     // Render ImGui
@@ -619,6 +632,17 @@ void App::renderImGui() {
             static float ringDensity = 1.0f;
             if (ImGui::SliderFloat("Ring Density", &ringDensity, 0.1f, 3.0f)) {
                 solarSystemManager_->setRingDensity(ringDensity);
+            }
+            
+            // Particle System Controls
+            static bool particlesVisible = true;
+            if (ImGui::Checkbox("Show Particle Effects", &particlesVisible)) {
+                solarSystemManager_->setParticleSystemsVisible(particlesVisible);
+            }
+            
+            static float particleEmissionRate = 1.0f;
+            if (ImGui::SliderFloat("Particle Emission Rate", &particleEmissionRate, 0.1f, 5.0f)) {
+                solarSystemManager_->setParticleEmissionRate(particleEmissionRate);
             }
         }
         

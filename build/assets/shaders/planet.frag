@@ -15,6 +15,7 @@ uniform vec3 viewPos;
 uniform vec3 planetColor;
 uniform float planetSeed;
 uniform int planetType; // 0=rocky, 1=gas, 2=ice, 3=desert
+uniform float lightIntensity;
 
 // Noise functions for procedural textures
 float hash(vec2 p) {
@@ -174,19 +175,23 @@ void main()
     vec3 lightDir = normalize(TangentLightPos - TangentFragPos);
     vec3 viewDir = normalize(TangentViewPos - TangentFragPos);
     
-    // Ambient lighting
-    float ambientStrength = 0.25;
-    vec3 ambient = ambientStrength * lightColor;
+    // Calculate distance attenuation
+    float distance = length(lightPos - FragPos);
+    float attenuation = 1.0 / (1.0 + 0.0001 * distance + 0.000001 * distance * distance);
     
-    // Diffuse lighting with normal mapping
+    // Ambient lighting with dynamic intensity
+    float ambientStrength = 0.15 + 0.1 * lightIntensity; // Varies with solar activity
+    vec3 ambient = ambientStrength * lightColor * attenuation;
+    
+    // Diffuse lighting with normal mapping and dynamic intensity
     float diff = max(dot(normalMap, lightDir), 0.0);
-    vec3 diffuse = diff * lightColor;
+    vec3 diffuse = diff * lightColor * lightIntensity * attenuation;
     
-    // Specular lighting with normal mapping
+    // Specular lighting with normal mapping and dynamic intensity
     float specularStrength = 0.15;
     vec3 reflectDir = reflect(-lightDir, normalMap);
     float spec = pow(max(dot(viewDir, reflectDir), 0.0), 32);
-    vec3 specular = specularStrength * spec * lightColor;
+    vec3 specular = specularStrength * spec * lightColor * lightIntensity * attenuation;
     
     // Calculate atmospheric glow
     vec3 worldNormal = normalize(Normal);
