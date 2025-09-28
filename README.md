@@ -53,7 +53,11 @@ Each solar system is generated using seed-based algorithms, ensuring reproducibl
 
 ## Screenshots
 
-Navigate through space and discover unique planetary systems with realistic lighting and atmospheric effects.
+<img width="1917" height="1003" alt="Ekran görüntüsü 2025-09-28 025702" src="https://github.com/user-attachments/assets/c0ebe88f-36f1-448e-a058-a11d093a3cc5" />
+
+<img width="1901" height="1016" alt="Ekran görüntüsü 2025-09-28 025745" src="https://github.com/user-attachments/assets/145dd6ef-ec47-4cd5-821d-af4db009120c" />
+
+
 
 ---
 
