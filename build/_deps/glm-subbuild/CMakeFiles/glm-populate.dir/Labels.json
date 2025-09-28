@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glm-subbuild/CMakeFiles/glm-populate"
+		},
+		{
+			"file" : "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glm-subbuild/CMakeFiles/61a31b9c4f81e03dc9658a3148a8696d/glm-populate.rule"
+		},
+		{
+			"file" : "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glm-subbuild/CMakeFiles/8fde45952e464bd95c55f7c13df93005/glm-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glm-subbuild/CMakeFiles/5054f5c13d60bb639ad273d0e19eba66/glm-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glm-subbuild/CMakeFiles/5054f5c13d60bb639ad273d0e19eba66/glm-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glm-subbuild/CMakeFiles/5054f5c13d60bb639ad273d0e19eba66/glm-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glm-subbuild/CMakeFiles/5054f5c13d60bb639ad273d0e19eba66/glm-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glm-subbuild/CMakeFiles/5054f5c13d60bb639ad273d0e19eba66/glm-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glm-subbuild/CMakeFiles/5054f5c13d60bb639ad273d0e19eba66/glm-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glm-subbuild/CMakeFiles/5054f5c13d60bb639ad273d0e19eba66/glm-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glm-subbuild/CMakeFiles/5054f5c13d60bb639ad273d0e19eba66/glm-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"glm-populate"
+		],
+		"name" : "glm-populate"
+	}
+}

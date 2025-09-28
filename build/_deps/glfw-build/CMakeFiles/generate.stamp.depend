@@ -1,0 +1,32 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.1/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeCLinkerInformation.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Linker/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Linker/MSVC.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Linker/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Linker/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/WriteBasicConfigVersionFile.cmake
+C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/CMakeFiles/4.1.1/CMakeCCompiler.cmake
+C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/CMakeFiles/cmake.verify_globs
+C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glfw-src/CMake/cmake_uninstall.cmake.in
+C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glfw-src/CMake/glfw3Config.cmake.in
+C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glfw-src/CMakeLists.txt

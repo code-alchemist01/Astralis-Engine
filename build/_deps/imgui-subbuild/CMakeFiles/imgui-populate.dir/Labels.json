@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild/CMakeFiles/imgui-populate"
+		},
+		{
+			"file" : "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild/CMakeFiles/fee09c14e366627bcbe0ecf663391bb3/imgui-populate.rule"
+		},
+		{
+			"file" : "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild/CMakeFiles/50e62d688a5712a09d4d961ac0201a9b/imgui-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild/CMakeFiles/6128993a072deb5a725fc8ae8421a4b5/imgui-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild/CMakeFiles/6128993a072deb5a725fc8ae8421a4b5/imgui-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild/CMakeFiles/6128993a072deb5a725fc8ae8421a4b5/imgui-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild/CMakeFiles/6128993a072deb5a725fc8ae8421a4b5/imgui-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild/CMakeFiles/6128993a072deb5a725fc8ae8421a4b5/imgui-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild/CMakeFiles/6128993a072deb5a725fc8ae8421a4b5/imgui-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild/CMakeFiles/6128993a072deb5a725fc8ae8421a4b5/imgui-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/imgui-subbuild/CMakeFiles/6128993a072deb5a725fc8ae8421a4b5/imgui-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"imgui-populate"
+		],
+		"name" : "imgui-populate"
+	}
+}

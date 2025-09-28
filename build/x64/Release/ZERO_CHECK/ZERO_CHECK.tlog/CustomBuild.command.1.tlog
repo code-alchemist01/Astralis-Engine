@@ -1,0 +1,10 @@
+^C:\USERS\EXCALIBUR\DESKTOP\PROJELER\C++ REAL PROJECT\YENI\BUILD\CMAKEFILES\96CD55EEE592B326D54FC02550CFF078\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni" "-BC:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/procedural_universe.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

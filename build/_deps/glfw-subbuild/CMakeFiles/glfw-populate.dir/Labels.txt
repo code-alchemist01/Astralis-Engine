@@ -1,0 +1,14 @@
+# Target labels
+ glfw-populate
+# Source files and their labels
+C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate
+C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glfw-subbuild/CMakeFiles/d094c139082b64977f79c6aef0178bdd/glfw-populate.rule
+C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glfw-subbuild/CMakeFiles/6436bbe92071094e7c2e5971384e4df3/glfw-populate-complete.rule
+C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glfw-subbuild/CMakeFiles/955cb65b8890ebfbf0df86387528fab1/glfw-populate-build.rule
+C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glfw-subbuild/CMakeFiles/955cb65b8890ebfbf0df86387528fab1/glfw-populate-configure.rule
+C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glfw-subbuild/CMakeFiles/955cb65b8890ebfbf0df86387528fab1/glfw-populate-download.rule
+C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glfw-subbuild/CMakeFiles/955cb65b8890ebfbf0df86387528fab1/glfw-populate-install.rule
+C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glfw-subbuild/CMakeFiles/955cb65b8890ebfbf0df86387528fab1/glfw-populate-mkdir.rule
+C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glfw-subbuild/CMakeFiles/955cb65b8890ebfbf0df86387528fab1/glfw-populate-patch.rule
+C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glfw-subbuild/CMakeFiles/955cb65b8890ebfbf0df86387528fab1/glfw-populate-test.rule
+C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/glfw-subbuild/CMakeFiles/955cb65b8890ebfbf0df86387528fab1/glfw-populate-update.rule

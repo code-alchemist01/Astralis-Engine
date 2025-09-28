@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\build\_deps\glfw-subbuild\CMakeFiles\d094c139082b64977f79c6aef0178bdd\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{6FBF9415-7994-31E8-B0A8-8AA6D03FE1B0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

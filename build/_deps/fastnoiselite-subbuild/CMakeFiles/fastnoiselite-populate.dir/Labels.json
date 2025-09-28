@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/fastnoiselite-subbuild/CMakeFiles/fastnoiselite-populate"
+		},
+		{
+			"file" : "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/fastnoiselite-subbuild/CMakeFiles/172d086c4728939683072e7ac0872196/fastnoiselite-populate.rule"
+		},
+		{
+			"file" : "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/fastnoiselite-subbuild/CMakeFiles/5efff11baeeb10f6248420ef235fe0d3/fastnoiselite-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/fastnoiselite-subbuild/CMakeFiles/5cb35fcc902241147c27d246c5368fca/fastnoiselite-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/fastnoiselite-subbuild/CMakeFiles/5cb35fcc902241147c27d246c5368fca/fastnoiselite-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/fastnoiselite-subbuild/CMakeFiles/5cb35fcc902241147c27d246c5368fca/fastnoiselite-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/fastnoiselite-subbuild/CMakeFiles/5cb35fcc902241147c27d246c5368fca/fastnoiselite-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/fastnoiselite-subbuild/CMakeFiles/5cb35fcc902241147c27d246c5368fca/fastnoiselite-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/fastnoiselite-subbuild/CMakeFiles/5cb35fcc902241147c27d246c5368fca/fastnoiselite-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/fastnoiselite-subbuild/CMakeFiles/5cb35fcc902241147c27d246c5368fca/fastnoiselite-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/excalibur/Desktop/Projeler/C++ Real Project/yeni/build/_deps/fastnoiselite-subbuild/CMakeFiles/5cb35fcc902241147c27d246c5368fca/fastnoiselite-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"fastnoiselite-populate"
+		],
+		"name" : "fastnoiselite-populate"
+	}
+}

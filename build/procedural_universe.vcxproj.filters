@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\App.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\AsteroidBelt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\Geometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\InputManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\Moon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\Noise.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\Planet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\PlanetManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\PlanetaryRings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\SolarSystemManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\Sun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\App.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\AsteroidBelt.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\Camera.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\Geometry.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\InputManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\Moon.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\Noise.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\Planet.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\PlanetManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\PlanetaryRings.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\Shader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\SolarSystemManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\Sun.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\Texture.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\src\core\Window.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\excalibur\Desktop\Projeler\C++ Real Project\yeni\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BE7DD2F4-0167-335A-B43D-8F2034CED544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D5435A22-9CA0-3F56-AE92-49064C0E15F5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

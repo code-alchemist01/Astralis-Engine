@@ -1,0 +1,14 @@
+<svg width="256" height="256" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="brick" x="0" y="0" width="64" height="32" patternUnits="userSpaceOnUse">
+      <!-- First row of bricks -->
+      <rect x="0" y="0" width="30" height="14" fill="#8B4513" stroke="#654321" stroke-width="1"/>
+      <rect x="32" y="0" width="30" height="14" fill="#8B4513" stroke="#654321" stroke-width="1"/>
+      <!-- Second row of bricks (offset) -->
+      <rect x="-16" y="16" width="30" height="14" fill="#A0522D" stroke="#654321" stroke-width="1"/>
+      <rect x="16" y="16" width="30" height="14" fill="#A0522D" stroke="#654321" stroke-width="1"/>
+      <rect x="48" y="16" width="30" height="14" fill="#A0522D" stroke="#654321" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="256" height="256" fill="url(#brick)"/>
+</svg>
