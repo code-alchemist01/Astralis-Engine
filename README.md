@@ -147,6 +147,10 @@ Astralis-Engine/
 
 <img width="1901" height="1016" alt="Ekran görüntüsü 2025-09-28 025745" src="https://github.com/user-attachments/assets/145dd6ef-ec47-4cd5-821d-af4db009120c" />
 
+<img width="1919" height="1018" alt="Ekran görüntüsü 2025-09-28 123458" src="https://github.com/user-attachments/assets/600a12c3-2dad-40b3-9163-10a0e2befded" />
+
+
+
 ## Contributing
 
 We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
