@@ -77,6 +77,8 @@ public:
     float getTemperature() const { return temperature_; }
     float getIntensity() const { return intensity_; }
     float getCurrentRotation() const { return currentRotation_; }
+    float getCurrentLightIntensity() const { return currentLightIntensity_; }
+    float getSolarFlareIntensity() const { return solarFlareIntensity_; }
 
     // Setters
     void setPosition(const glm::vec3& position) { position_ = position; }
@@ -108,6 +110,12 @@ private:
     float rotationSpeed_;
     float pulsePhase_;
     float pulseIntensity_;
+    
+    // Dynamic lighting properties
+    float solarFlareIntensity_;
+    float solarFlarePhase_;
+    float baseIntensity_;
+    float currentLightIntensity_;
     
     // Rendering resources
     std::unique_ptr<Geometry> geometry_;

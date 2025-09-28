@@ -117,11 +117,12 @@ void SolarSystemManager::render(Shader* planetShader, Shader* sunShader, Shader*
     // Get sun properties for lighting
     glm::vec3 sunPos = getSunPosition();
     glm::vec3 sunColor = getSunLightColor();
+    float lightIntensity = sun_ ? sun_->getCurrentLightIntensity() : 1.0f;
     
     // Render planets first (they need sun lighting)
     if (planetManager_ && planetShader) {
         planetManager_->render(planetShader, camera, view, projection, 
-                              sunPos, sunColor, viewPos);
+                              sunPos, sunColor, viewPos, lightIntensity);
     }
     
     // Render asteroid belts

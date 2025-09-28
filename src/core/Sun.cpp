@@ -18,6 +18,10 @@ Sun::Sun(const glm::vec3& position, float radius, const glm::vec3& color,
     , rotationSpeed_(10.0f)  // Slow rotation for the sun
     , pulsePhase_(0.0f)
     , pulseIntensity_(0.1f)
+    , solarFlareIntensity_(0.0f)
+    , solarFlarePhase_(0.0f)
+    , baseIntensity_(intensity)
+    , currentLightIntensity_(intensity)
     , geometry_(nullptr)
 {
 }
@@ -58,6 +62,23 @@ void Sun::update(float deltaTime) {
     if (pulsePhase_ > 2.0f * PI) {
         pulsePhase_ -= 2.0f * PI;
     }
+    
+    // Update solar flare activity
+    solarFlarePhase_ += deltaTime * 0.5f; // Slower flare cycle
+    if (solarFlarePhase_ > 2.0f * PI) {
+        solarFlarePhase_ -= 2.0f * PI;
+    }
+    
+    // Calculate dynamic solar flare intensity
+    float flareBase = std::sin(solarFlarePhase_) * 0.5f + 0.5f; // 0 to 1
+    float flareNoise = std::sin(solarFlarePhase_ * 3.7f) * 0.3f; // Add some irregularity
+    solarFlareIntensity_ = flareBase + flareNoise;
+    solarFlareIntensity_ = std::max(0.0f, std::min(1.0f, solarFlareIntensity_)); // Clamp to [0,1]
+    
+    // Calculate current light intensity with solar activity
+    float activityMultiplier = 1.0f + solarFlareIntensity_ * 0.4f; // Up to 40% intensity boost
+    float pulseMultiplier = 1.0f + pulseIntensity_ * std::sin(pulsePhase_);
+    currentLightIntensity_ = baseIntensity_ * activityMultiplier * pulseMultiplier;
 }
 
 void Sun::render(Shader* shader, const Camera* camera, 
@@ -85,6 +106,8 @@ void Sun::render(Shader* shader, const Camera* camera,
     shader->setFloat("sunIntensity", intensity_);
     shader->setFloat("sunTemperature", temperature_);
     shader->setFloat("pulsePhase", pulsePhase_);
+    shader->setFloat("solarFlareIntensity", solarFlareIntensity_);
+    shader->setFloat("currentLightIntensity", currentLightIntensity_);
     
     // Light properties for self-illumination
     shader->setVec3("lightPos", position_);
@@ -101,7 +124,7 @@ Sun::LightProperties Sun::getLightProperties() const {
     LightProperties props;
     props.position = position_;
     props.color = color_;
-    props.intensity = intensity_;
+    props.intensity = currentLightIntensity_; // Use dynamic intensity
     return props;
 }
 

@@ -6,6 +6,10 @@
 #include <cmath>
 #include <algorithm>
 
+#ifndef M_PI
+#define M_PI 3.14159265358979323846
+#endif
+
 Planet::Planet(float radius, int resolution, Noise* noise)
     : radius_(radius)
     , resolution_(resolution)
@@ -14,6 +18,10 @@ Planet::Planet(float radius, int resolution, Noise* noise)
     , heightScale_(1.0f)
     , noiseFrequency_(0.01f)
     , noiseOctaves_(4)
+    , orbitalRadius_(0.0f)
+    , orbitalSpeed_(0.0f)
+    , orbitalAngle_(0.0f)
+    , orbitalPosition_(0.0f, 0.0f, 0.0f)
     , needsRegeneration_(true) {
 }
 
@@ -229,4 +237,29 @@ glm::vec3 Planet::calculateNormal(const glm::vec3& position) const {
     // by taking the cross product of tangent vectors derived from height samples
     
     return glm::normalize(pos);
+}
+
+void Planet::setOrbitalParameters(float radius, float speed) {
+    orbitalRadius_ = radius;
+    orbitalSpeed_ = speed;
+    // Update initial position
+    updateOrbit(0.0f);
+}
+
+void Planet::updateOrbit(float deltaTime) {
+    // Update orbital angle
+    orbitalAngle_ += orbitalSpeed_ * deltaTime;
+    
+    // Keep angle in [0, 2π] range
+    while (orbitalAngle_ > 2.0f * M_PI) {
+        orbitalAngle_ -= 2.0f * M_PI;
+    }
+    while (orbitalAngle_ < 0.0f) {
+        orbitalAngle_ += 2.0f * M_PI;
+    }
+    
+    // Calculate new position (circular orbit in XZ plane)
+    orbitalPosition_.x = orbitalRadius_ * std::cos(orbitalAngle_);
+    orbitalPosition_.y = 0.0f; // Keep planets in the same plane
+    orbitalPosition_.z = orbitalRadius_ * std::sin(orbitalAngle_);
 }

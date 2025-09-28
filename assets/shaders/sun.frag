@@ -12,6 +12,8 @@ uniform float sunIntensity;
 uniform float sunTemperature;
 uniform float pulsePhase;
 uniform vec3 viewPos;
+uniform float solarFlareIntensity;
+uniform float currentLightIntensity;
 
 // Noise functions for surface activity
 float hash(vec2 p) {
@@ -44,25 +46,47 @@ float fbm(vec2 p) {
     return value;
 }
 
+// Generate solar flares
+vec3 generateSolarFlares(vec2 uv, float flareIntensity) {
+    vec2 p = uv * 6.0 + pulsePhase * 0.3;
+    
+    // Create flare patterns
+    float flare1 = fbm(p + vec2(sin(pulsePhase * 1.3), cos(pulsePhase * 0.7)));
+    float flare2 = fbm(p * 1.5 + vec2(cos(pulsePhase * 0.9), sin(pulsePhase * 1.1)));
+    
+    // Combine flares with intensity
+    float flarePattern = (flare1 + flare2) * 0.5;
+    flarePattern = pow(flarePattern, 2.0 - flareIntensity); // More intense = more visible flares
+    
+    // Flare colors - bright white/yellow
+    vec3 flareColor = vec3(1.5, 1.2, 0.8) * flareIntensity;
+    
+    return flareColor * flarePattern;
+}
+
 // Generate solar surface activity
 vec3 generateSolarSurface(vec2 uv) {
     // Animated surface patterns
     float time = pulsePhase * 0.5;
     vec2 p = uv * 8.0 + time * 0.1;
     
-    // Solar flares and granulation
+    // Solar granulation and convection cells
     float granulation = fbm(p * 4.0);
-    float flares = fbm(p * 2.0 + time * 0.2);
+    float convection = fbm(p * 2.0 + time * 0.2);
     float spots = fbm(p * 1.0 + time * 0.05);
     
     // Combine patterns
-    float activity = granulation * 0.4 + flares * 0.4 + spots * 0.2;
+    float activity = granulation * 0.4 + convection * 0.4 + spots * 0.2;
     
     // Create more vibrant yellow/orange color variations
     vec3 baseYellow = vec3(1.0, 0.8, 0.3);  // Strong yellow-orange base
     vec3 hotColor = sunColor * baseYellow * 1.5;  // Brighter hot areas
     vec3 coolColor = sunColor * baseYellow * 0.7;  // Darker cool areas
     vec3 surfaceColor = mix(coolColor, hotColor, activity);
+    
+    // Add solar flares
+    vec3 flares = generateSolarFlares(uv, solarFlareIntensity);
+    surfaceColor += flares;
     
     return surfaceColor;
 }
@@ -88,11 +112,12 @@ void main()
     vec3 normal = normalize(Normal);
     
     // Base emission (sun is self-illuminating)
-    vec3 emission = surfaceColor * sunIntensity;
+    vec3 emission = surfaceColor * currentLightIntensity;
     
-    // Add pulsing effect
+    // Add pulsing effect with solar activity
     float pulse = 1.0 + 0.1 * sin(pulsePhase * 3.0);
-    emission *= pulse;
+    float solarActivity = 1.0 + solarFlareIntensity * 0.3; // Solar flares boost emission
+    emission *= pulse * solarActivity;
     
     // Calculate corona glow
     float corona = calculateCorona(normal, viewDir);

@@ -114,6 +114,12 @@ void PlanetManager::addPlanet(const glm::vec3& position, float radius, const glm
     planet->setHeightScale(heightDist(rng));
     planet->setNoiseFrequency(freqDist(rng));
     planet->setNoiseOctaves(octaveDist(rng));
+    
+    // Set orbital parameters for the planet
+    float distance = glm::length(position);
+    float orbitalSpeed = 0.5f / sqrt(distance * 0.1f + 1.0f);
+    planet->setOrbitalParameters(distance, orbitalSpeed);
+    
     planet->generate();
     
     // Create planet instance
@@ -122,7 +128,6 @@ void PlanetManager::addPlanet(const glm::vec3& position, float radius, const glm
     );
     
     // Setup orbital mechanics parameters
-    float distance = glm::length(position);
     instance->orbitRadius = distance;
     instance->orbitCenter = glm::vec3(0.0f); // Sun at origin
     
@@ -193,6 +198,11 @@ void PlanetManager::update(float deltaTime) {
         // Set final position relative to orbit center
         planetInstance->position = planetInstance->orbitCenter + glm::vec3(x, y, z);
         
+        // Update planet's internal orbital motion
+        if (planetInstance->planet) {
+            planetInstance->planet->updateOrbit(deltaTime);
+        }
+        
         // Update moons
         for (auto& moon : planetInstance->moons) {
             moon->update(deltaTime, planetInstance->position);
@@ -202,7 +212,8 @@ void PlanetManager::update(float deltaTime) {
 
 void PlanetManager::render(Shader* shader, const Camera* camera, const glm::mat4& view, 
                           const glm::mat4& projection, const glm::vec3& lightPos, 
-                          const glm::vec3& lightColor, const glm::vec3& viewPos) {
+                          const glm::vec3& lightColor, const glm::vec3& viewPos, 
+                          float lightIntensity) {
     if (!shader || !camera) {
         return;
     }
@@ -213,6 +224,7 @@ void PlanetManager::render(Shader* shader, const Camera* camera, const glm::mat4
     shader->setVec3("lightPos", lightPos);
     shader->setVec3("lightColor", lightColor);
     shader->setVec3("viewPos", viewPos);
+    shader->setFloat("lightIntensity", lightIntensity);
     
     glm::vec3 cameraPos = camera->getPosition();
     int planetsRendered = 0;

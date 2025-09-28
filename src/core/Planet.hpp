@@ -125,6 +125,38 @@ public:
      */
     int getNoiseOctaves() const { return noiseOctaves_; }
 
+    // Orbital motion methods
+    /**
+     * @brief Set orbital parameters
+     * @param radius Distance from sun
+     * @param speed Orbital speed (radians per second)
+     */
+    void setOrbitalParameters(float radius, float speed);
+
+    /**
+     * @brief Update orbital position based on time
+     * @param deltaTime Time elapsed since last update
+     */
+    void updateOrbit(float deltaTime);
+
+    /**
+     * @brief Get current orbital position
+     * @return glm::vec3 Current position in space
+     */
+    glm::vec3 getOrbitalPosition() const { return orbitalPosition_; }
+
+    /**
+     * @brief Set orbital angle directly
+     * @param angle Orbital angle in radians
+     */
+    void setOrbitalAngle(float angle) { orbitalAngle_ = angle; }
+
+    /**
+     * @brief Get orbital radius
+     * @return float Distance from sun
+     */
+    float getOrbitalRadius() const { return orbitalRadius_; }
+
 private:
     /**
      * @brief Convert cube coordinates to sphere coordinates
@@ -170,6 +202,12 @@ private:
     float heightScale_;                     ///< Height displacement scale
     float noiseFrequency_;                  ///< Base noise frequency
     int noiseOctaves_;                      ///< Number of noise octaves
+    
+    // Orbital motion parameters
+    float orbitalRadius_;                   ///< Distance from sun
+    float orbitalSpeed_;                    ///< Orbital speed in radians per second
+    float orbitalAngle_;                    ///< Current orbital angle in radians
+    glm::vec3 orbitalPosition_;             ///< Current position in space
     
     bool needsRegeneration_;                ///< Flag indicating if geometry needs regeneration
 };

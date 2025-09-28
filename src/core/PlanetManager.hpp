@@ -104,10 +104,12 @@ public:
      * @param lightPos Light position
      * @param lightColor Light color
      * @param viewPos Camera position
+     * @param lightIntensity Dynamic light intensity from sun
      */
     void render(Shader* shader, const Camera* camera, const glm::mat4& view, 
                 const glm::mat4& projection, const glm::vec3& lightPos, 
-                const glm::vec3& lightColor, const glm::vec3& viewPos);
+                const glm::vec3& lightColor, const glm::vec3& viewPos, 
+                float lightIntensity = 1.0f);
 
     /**
      * @brief Get the number of planets in the system
