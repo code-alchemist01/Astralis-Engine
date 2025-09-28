@@ -57,4 +57,9 @@ Each solar system is generated using seed-based algorithms, ensuring reproducibl
 
 <img width="1901" height="1016" alt="Ekran görüntüsü 2025-09-28 025745" src="https://github.com/user-attachments/assets/145dd6ef-ec47-4cd5-821d-af4db009120c" />
 
+## Camera System Update
+
+<img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/fa5a0cbc-c562-43d8-a4bc-5525e4a505c5" />
+
+
 
