@@ -75,13 +75,6 @@ private:
     float starDensity_ = 0.001f;
     float starBrightness_ = 1.0f;
     
-    // UI state
-    bool showDemoWindow_ = false;
-    bool showPlanetPanel_ = true;
-    bool showCameraPanel_ = true;
-    bool showRenderingPanel_ = true;
-    bool showSolarSystemPanel_ = true;
-    
     // Solar system parameters
     int planetCount_ = 8;
     int systemSeed_ = 1337;

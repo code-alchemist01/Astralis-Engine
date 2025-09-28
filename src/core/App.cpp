@@ -558,391 +558,310 @@ void App::renderImGui() {
     ImGui_ImplGlfw_NewFrame();
     ImGui::NewFrame();
 
-    // Show demo window if enabled
-    if (showDemoWindow_) {
-        ImGui::ShowDemoWindow(&showDemoWindow_);
-    }
+    // Set up ImGui style for better appearance
+    ImGuiStyle& style = ImGui::GetStyle();
+    style.WindowRounding = 8.0f;
+    style.FrameRounding = 4.0f;
+    style.PopupRounding = 4.0f;
+    style.ScrollbarRounding = 4.0f;
+    style.GrabRounding = 4.0f;
+    style.TabRounding = 4.0f;
+    style.WindowPadding = ImVec2(12, 12);
+    style.FramePadding = ImVec2(8, 4);
+    style.ItemSpacing = ImVec2(8, 6);
+    style.ItemInnerSpacing = ImVec2(6, 4);
+    style.Alpha = 0.95f;
 
-    // Main menu bar
-    if (ImGui::BeginMainMenuBar()) {
-        if (ImGui::BeginMenu("Windows")) {
-            ImGui::MenuItem("Demo Window", nullptr, &showDemoWindow_);
-            ImGui::MenuItem("Solar System Panel", nullptr, &showSolarSystemPanel_);
-            ImGui::MenuItem("Camera Panel", nullptr, &showCameraPanel_);
-            ImGui::MenuItem("Rendering Panel", nullptr, &showRenderingPanel_);
-            ImGui::EndMenu();
-        }
-        ImGui::EndMainMenuBar();
-    }
-
-    // Solar System control panel
-    if (showSolarSystemPanel_) {
-        ImGui::Begin("Solar System Controls", &showSolarSystemPanel_);
+    // Main control panel - compact and organized
+    ImGui::SetNextWindowPos(ImVec2(10, 10), ImGuiCond_FirstUseEver);
+    ImGui::SetNextWindowSize(ImVec2(320, 600), ImGuiCond_FirstUseEver);
+    
+    if (ImGui::Begin("Astralis Engine Control Panel", nullptr, ImGuiWindowFlags_NoCollapse)) {
         
-        ImGui::Text("Solar System Generator");
-        ImGui::Separator();
-        
-        bool regenerateSystem = false;
-        
-        if (ImGui::SliderInt("Planet Count", &planetCount_, 3, 15)) {
-            regenerateSystem = true;
-        }
-        
-        if (ImGui::InputInt("System Seed", &systemSeed_)) {
-            regenerateSystem = true;
-        }
-        
-        if (ImGui::SliderFloat("Max Render Distance", &maxRenderDistance_, 100.0f, 2000.0f)) {
-            if (solarSystemManager_ && solarSystemManager_->getPlanetManager()) {
-                solarSystemManager_->getPlanetManager()->setMaxRenderDistance(maxRenderDistance_);
-            }
-        }
-        
-        if (ImGui::Button("Generate New System")) {
-            // Generate new random seed for unique systems
-            systemSeed_ = static_cast<int>(std::chrono::high_resolution_clock::now().time_since_epoch().count());
-            if (solarSystemManager_) {
-                solarSystemManager_->generateSolarSystem(systemSeed_, planetCount_);
-                spdlog::info("Generated new solar system with {} planets and seed {}", planetCount_, systemSeed_);
-            }
-        }
-        
-        // Regenerate with current seed when sliders change
-        if (regenerateSystem) {
-            if (solarSystemManager_) {
-                solarSystemManager_->generateSolarSystem(systemSeed_, planetCount_);
-                spdlog::info("Regenerated solar system with {} planets using current seed {}", planetCount_, systemSeed_);
-            }
-        }
-        
-        ImGui::SameLine();
-        if (ImGui::Button("Random Seed")) {
-            systemSeed_ = static_cast<int>(std::chrono::high_resolution_clock::now().time_since_epoch().count());
-            if (solarSystemManager_) {
-                solarSystemManager_->generateSolarSystem(systemSeed_, planetCount_);
-                spdlog::info("Generated random solar system with seed {}", systemSeed_);
-            }
-        }
-        
-        ImGui::Separator();
-        ImGui::Text("Visual Effects:");
-        
-        // Asteroid Belt Controls
-        if (solarSystemManager_) {
-            static bool asteroidsVisible = true;
-            if (ImGui::Checkbox("Show Asteroid Belts", &asteroidsVisible)) {
-                solarSystemManager_->setAsteroidBeltsVisible(asteroidsVisible);
-            }
+        // Tab bar for organized sections
+        if (ImGui::BeginTabBar("ControlTabs")) {
             
-            static float asteroidDensity = 1.0f;
-            if (ImGui::SliderFloat("Asteroid Density", &asteroidDensity, 0.1f, 3.0f)) {
-                solarSystemManager_->setAsteroidDensity(asteroidDensity);
-            }
-            
-            // Planetary Ring Controls
-            static bool ringsVisible = true;
-            if (ImGui::Checkbox("Show Planetary Rings", &ringsVisible)) {
-                solarSystemManager_->setPlanetaryRingsVisible(ringsVisible);
-            }
-            
-            static float ringDensity = 1.0f;
-            if (ImGui::SliderFloat("Ring Density", &ringDensity, 0.1f, 3.0f)) {
-                solarSystemManager_->setRingDensity(ringDensity);
-            }
-            
-            // Particle System Controls
-            static bool particlesVisible = true;
-            if (ImGui::Checkbox("Show Particle Effects", &particlesVisible)) {
-                solarSystemManager_->setParticleSystemsVisible(particlesVisible);
-            }
-            
-            static float particleEmissionRate = 1.0f;
-            if (ImGui::SliderFloat("Particle Emission Rate", &particleEmissionRate, 0.1f, 5.0f)) {
-                solarSystemManager_->setParticleEmissionRate(particleEmissionRate);
-            }
-        }
-        
-        ImGui::Separator();
-        ImGui::Text("System Info:");
-        if (solarSystemManager_ && solarSystemManager_->getPlanetManager()) {
-            ImGui::Text("Planets: %zu", solarSystemManager_->getPlanetManager()->getPlanetCount());
-            ImGui::Text("Current Seed: %d", systemSeed_);
-            ImGui::Text("Render Distance: %.1f", maxRenderDistance_);
-        }
-        
-        // Individual planet info
-        if (solarSystemManager_ && solarSystemManager_->getPlanetManager() && 
-            solarSystemManager_->getPlanetManager()->getPlanetCount() > 0) {
-            ImGui::Separator();
-            ImGui::Text("Planet Details:");
-            
-            static int selectedPlanet = 0;
-            if (ImGui::SliderInt("Select Planet", &selectedPlanet, 0, 
-                               static_cast<int>(solarSystemManager_->getPlanetManager()->getPlanetCount()) - 1)) {
-                // Planet selection changed
-            }
-            
-            PlanetInstance* planet = solarSystemManager_->getPlanetManager()->getPlanet(selectedPlanet);
-            if (planet) {
-                ImGui::Text("Position: (%.1f, %.1f, %.1f)", 
-                           planet->position.x, planet->position.y, planet->position.z);
-                ImGui::Text("Scale: %.2f", planet->scale);
-                ImGui::Text("Seed: %d", planet->seed);
+            // Solar System Tab
+            if (ImGui::BeginTabItem("Solar System")) {
+                ImGui::Spacing();
                 
-                // Planet type display
-                const char* typeNames[] = {"Rocky", "Gas Giant", "Ice", "Desert"};
-                const char* typeName = (planet->type >= 0 && planet->type < 4) ? typeNames[planet->type] : "Unknown";
-                ImGui::Text("Type: %s (%d)", typeName, planet->type);
+                // Quick generation controls
+                ImGui::Text("🌌 System Generation");
+                ImGui::Separator();
                 
-                ImGui::ColorEdit3("Color", &planet->color.x);
-                ImGui::Text("Rotation Speed: %.3f", planet->rotationSpeed);
-                
-                if (planet->planet && planet->planet->getGeometry()) {
-                    ImGui::Text("Vertices: %d", planet->planet->getGeometry()->getVertexCount());
-                    ImGui::Text("Indices: %d", planet->planet->getGeometry()->getIndexCount());
-                    ImGui::Text("Resolution: %d", planet->planet->getResolution());
+                if (ImGui::SliderInt("Planets", &planetCount_, 3, 15)) {
+                    if (solarSystemManager_) {
+                        solarSystemManager_->generateSolarSystem(systemSeed_, planetCount_);
+                    }
                 }
+                
+                ImGui::PushItemWidth(200);
+                if (ImGui::InputInt("Seed", &systemSeed_)) {
+                    if (solarSystemManager_) {
+                        solarSystemManager_->generateSolarSystem(systemSeed_, planetCount_);
+                    }
+                }
+                ImGui::PopItemWidth();
+                
+                if (ImGui::Button("🎲 Random System", ImVec2(-1, 0))) {
+                    systemSeed_ = static_cast<int>(std::chrono::high_resolution_clock::now().time_since_epoch().count());
+                    if (solarSystemManager_) {
+                        solarSystemManager_->generateSolarSystem(systemSeed_, planetCount_);
+                    }
+                }
+                
+                ImGui::Spacing();
+                ImGui::Text("✨ Visual Effects");
+                ImGui::Separator();
+                
+                if (solarSystemManager_) {
+                    static bool asteroidsVisible = true;
+                    ImGui::Checkbox("Asteroid Belts", &asteroidsVisible);
+                    if (ImGui::IsItemDeactivatedAfterEdit()) {
+                        solarSystemManager_->setAsteroidBeltsVisible(asteroidsVisible);
+                    }
+                    
+                    static bool ringsVisible = true;
+                    ImGui::Checkbox("Planetary Rings", &ringsVisible);
+                    if (ImGui::IsItemDeactivatedAfterEdit()) {
+                        solarSystemManager_->setPlanetaryRingsVisible(ringsVisible);
+                    }
+                    
+                    static bool particlesVisible = true;
+                    ImGui::Checkbox("Particle Effects", &particlesVisible);
+                    if (ImGui::IsItemDeactivatedAfterEdit()) {
+                        solarSystemManager_->setParticleSystemsVisible(particlesVisible);
+                    }
+                }
+                
+                ImGui::Spacing();
+                ImGui::Text("📊 System Info");
+                ImGui::Separator();
+                
+                if (solarSystemManager_ && solarSystemManager_->getPlanetManager()) {
+                    ImGui::Text("Planets: %zu", solarSystemManager_->getPlanetManager()->getPlanetCount());
+                    ImGui::Text("Seed: %d", systemSeed_);
+                    ImGui::Text("Render Distance: %.0f", maxRenderDistance_);
+                }
+                
+                ImGui::EndTabItem();
             }
+            
+            // Camera Tab
+            if (ImGui::BeginTabItem("Camera")) {
+                ImGui::Spacing();
+                
+                // Camera mode selection
+                ImGui::Text("📷 Camera Mode");
+                ImGui::Separator();
+                
+                static int currentMode = 0;
+                const char* modes[] = {"Free Fly", "Orbit", "Follow", "Cinematic"};
+                
+                if (ImGui::Combo("Mode", &currentMode, modes, IM_ARRAYSIZE(modes))) {
+                    camera_->setMode(static_cast<Camera::Mode>(currentMode));
+                }
+                
+                ImGui::Spacing();
+                ImGui::Text("⚙️ Settings");
+                ImGui::Separator();
+                
+                static float moveSpeed = 5.0f;
+                static float mouseSensitivity = 0.1f;
+                
+                if (ImGui::SliderFloat("Speed", &moveSpeed, 0.1f, 50.0f)) {
+                    camera_->setMovementSpeed(moveSpeed);
+                }
+                
+                if (ImGui::SliderFloat("Sensitivity", &mouseSensitivity, 0.01f, 1.0f)) {
+                    camera_->setMouseSensitivity(mouseSensitivity);
+                }
+                
+                // Mode-specific controls
+                if (currentMode == 1) { // Orbit mode
+                    ImGui::Spacing();
+                    ImGui::Text("🔄 Orbit Controls");
+                    ImGui::Separator();
+                    
+                    static float orbitDistance = 200.0f;
+                    static float orbitSpeed = 1.0f;
+                    
+                    if (ImGui::SliderFloat("Distance", &orbitDistance, 50.0f, 1000.0f)) {
+                        camera_->setOrbitDistance(orbitDistance);
+                    }
+                    
+                    if (ImGui::SliderFloat("Speed", &orbitSpeed, 0.1f, 5.0f)) {
+                        camera_->setOrbitSpeed(orbitSpeed);
+                    }
+                    
+                    if (ImGui::Button("Target Sun", ImVec2(-1, 0))) {
+                        camera_->setTarget(glm::vec3(0.0f, 0.0f, 0.0f));
+                    }
+                }
+                
+                ImGui::Spacing();
+                ImGui::Text("🎬 Quick Actions");
+                ImGui::Separator();
+                
+                if (ImGui::Button("System Tour", ImVec2(-1, 0))) {
+                    std::vector<glm::vec3> waypoints = {
+                        glm::vec3(0.0f, 0.0f, 500.0f),
+                        glm::vec3(200.0f, 100.0f, 200.0f),
+                        glm::vec3(0.0f, 200.0f, 0.0f),
+                        glm::vec3(-200.0f, 50.0f, 200.0f),
+                        glm::vec3(0.0f, 0.0f, 100.0f)
+                    };
+                    camera_->startCinematicPath(waypoints, 15.0f);
+                    camera_->playCinematicSequence();
+                }
+                
+                if (ImGui::Button("Reset Camera", ImVec2(-1, 0))) {
+                    camera_->resetToDefault();
+                }
+                
+                ImGui::EndTabItem();
+            }
+            
+            // Rendering Tab
+            if (ImGui::BeginTabItem("Rendering")) {
+                ImGui::Spacing();
+                
+                ImGui::Text("⭐ Starfield");
+                ImGui::Separator();
+                
+                ImGui::Checkbox("Enable Starfield", &useStarfield_);
+                
+                if (useStarfield_) {
+                    if (ImGui::SliderFloat("Density", &starDensity_, 0.0001f, 0.01f, "%.4f")) {
+                        // Starfield density updated
+                    }
+                    
+                    if (ImGui::SliderFloat("Brightness", &starBrightness_, 0.1f, 3.0f)) {
+                        // Starfield brightness updated
+                    }
+                }
+                
+                ImGui::Spacing();
+                ImGui::Text("🔧 Render Settings");
+                ImGui::Separator();
+                
+                if (ImGui::SliderFloat("Max Distance", &maxRenderDistance_, 100.0f, 2000.0f)) {
+                    if (solarSystemManager_ && solarSystemManager_->getPlanetManager()) {
+                        solarSystemManager_->getPlanetManager()->setMaxRenderDistance(maxRenderDistance_);
+                    }
+                }
+                
+                ImGui::Spacing();
+                ImGui::Text("📈 Performance");
+                ImGui::Separator();
+                
+                ImGui::Text("FPS: %.1f", ImGui::GetIO().Framerate);
+                ImGui::Text("Frame Time: %.3f ms", 1000.0f / ImGui::GetIO().Framerate);
+                
+                ImGui::EndTabItem();
+            }
+            
+            // Planet Details Tab
+            if (ImGui::BeginTabItem("Planets")) {
+                ImGui::Spacing();
+                
+                if (solarSystemManager_ && solarSystemManager_->getPlanetManager() && 
+                    solarSystemManager_->getPlanetManager()->getPlanetCount() > 0) {
+                    
+                    ImGui::Text("🪐 Planet Inspector");
+                    ImGui::Separator();
+                    
+                    static int selectedPlanet = 0;
+                    int maxPlanets = static_cast<int>(solarSystemManager_->getPlanetManager()->getPlanetCount()) - 1;
+                    
+                    if (ImGui::SliderInt("Select", &selectedPlanet, 0, maxPlanets)) {
+                        // Planet selection changed
+                    }
+                    
+                    PlanetInstance* planet = solarSystemManager_->getPlanetManager()->getPlanet(selectedPlanet);
+                    if (planet) {
+                        ImGui::Spacing();
+                        
+                        // Planet type display
+                        const char* typeNames[] = {"🪨 Rocky", "🌪️ Gas Giant", "🧊 Ice", "🏜️ Desert"};
+                        const char* typeName = (planet->type >= 0 && planet->type < 4) ? typeNames[planet->type] : "❓ Unknown";
+                        ImGui::Text("Type: %s", typeName);
+                        
+                        ImGui::Text("Position: (%.0f, %.0f, %.0f)", 
+                                   planet->position.x, planet->position.y, planet->position.z);
+                        ImGui::Text("Scale: %.2f", planet->scale);
+                        ImGui::Text("Seed: %d", planet->seed);
+                        
+                        ImGui::ColorEdit3("Color", &planet->color.x, ImGuiColorEditFlags_NoInputs);
+                        
+                        if (planet->planet && planet->planet->getGeometry()) {
+                            ImGui::Separator();
+                            ImGui::Text("Geometry Info:");
+                            ImGui::Text("Vertices: %d", planet->planet->getGeometry()->getVertexCount());
+                            ImGui::Text("Resolution: %d", planet->planet->getResolution());
+                        }
+                    }
+                } else {
+                    ImGui::Text("No planets available");
+                    ImGui::Text("Generate a solar system first!");
+                }
+                
+                ImGui::EndTabItem();
+            }
+            
+            ImGui::EndTabBar();
         }
-        
-        ImGui::End();
     }
+    ImGui::End();
 
-    // Camera control panel
-    if (showCameraPanel_) {
-        ImGui::Begin("Enhanced Camera Controls", &showCameraPanel_);
-        
-        // Camera Status
-        ImGui::Text("Camera Status");
-        ImGui::Separator();
+    // Compact status overlay
+    ImGui::SetNextWindowPos(ImVec2(10, ImGui::GetIO().DisplaySize.y - 120), ImGuiCond_Always);
+    ImGui::SetNextWindowSize(ImVec2(250, 110), ImGuiCond_Always);
+    
+    if (ImGui::Begin("Status", nullptr, 
+                     ImGuiWindowFlags_NoTitleBar | ImGuiWindowFlags_NoResize | 
+                     ImGuiWindowFlags_NoMove | ImGuiWindowFlags_NoScrollbar |
+                     ImGuiWindowFlags_NoCollapse)) {
         
         glm::vec3 pos = camera_->getPosition();
-        ImGui::Text("Position: (%.2f, %.2f, %.2f)", pos.x, pos.y, pos.z);
+        ImGui::Text("📍 Position: (%.0f, %.0f, %.0f)", pos.x, pos.y, pos.z);
         
-        glm::vec3 front = camera_->getFront();
-        ImGui::Text("Direction: (%.2f, %.2f, %.2f)", front.x, front.y, front.z);
+        ImGui::Text("🎯 Mode: %s", camera_->isTransitioning() ? "Transitioning" : "Active");
         
-        glm::vec3 velocity = camera_->getVelocity();
-        ImGui::Text("Velocity: (%.2f, %.2f, %.2f)", velocity.x, velocity.y, velocity.z);
-        
-        // Camera Mode Selection
-        ImGui::Spacing();
-        ImGui::Text("Camera Mode");
-        ImGui::Separator();
-        
-        static int currentMode = 0;
-        const char* modes[] = {"Free Fly", "Orbit", "Follow", "Cinematic", "First Person", "Planetary Surface"};
-        
-        if (ImGui::Combo("Mode", &currentMode, modes, IM_ARRAYSIZE(modes))) {
-            camera_->setMode(static_cast<Camera::Mode>(currentMode));
+        if (camera_->isCinematicPlaying()) {
+            ImGui::TextColored(ImVec4(0.2f, 1.0f, 0.2f, 1.0f), "🎬 Cinematic Playing");
         }
         
-        // Basic Controls
-        ImGui::Spacing();
-        ImGui::Text("Basic Controls");
-        ImGui::Separator();
-        
-        static float moveSpeed = 5.0f;
-        static float mouseSensitivity = 0.1f;
-        static float speedMultiplier = 1.0f;
-        static float boostMultiplier = 5.0f;
-        
-        if (ImGui::SliderFloat("Move Speed", &moveSpeed, 0.1f, 50.0f)) {
-            camera_->setMovementSpeed(moveSpeed);
-        }
-        
-        if (ImGui::SliderFloat("Mouse Sensitivity", &mouseSensitivity, 0.01f, 1.0f)) {
-            camera_->setMouseSensitivity(mouseSensitivity);
-        }
-        
-        if (ImGui::SliderFloat("Speed Multiplier", &speedMultiplier, 0.1f, 10.0f)) {
-            camera_->setSpeedMultiplier(speedMultiplier);
-        }
-        
-        if (ImGui::SliderFloat("Boost Multiplier", &boostMultiplier, 1.0f, 20.0f)) {
-            camera_->setBoostMultiplier(boostMultiplier);
-        }
-        
-        // Orbit Controls (when in orbit mode)
-        if (currentMode == 1) { // Orbit mode
-            ImGui::Spacing();
-            ImGui::Text("Orbit Controls");
-            ImGui::Separator();
-            
-            static float orbitDistance = 200.0f;
-            static float orbitSpeed = 1.0f;
-            static float orbitHeight = 0.0f;
-            
-            if (ImGui::SliderFloat("Orbit Distance", &orbitDistance, 50.0f, 1000.0f)) {
-                camera_->setOrbitDistance(orbitDistance);
-            }
-            
-            if (ImGui::SliderFloat("Orbit Speed", &orbitSpeed, 0.1f, 5.0f)) {
-                camera_->setOrbitSpeed(orbitSpeed);
-            }
-            
-            if (ImGui::SliderFloat("Orbit Height", &orbitHeight, -100.0f, 100.0f)) {
-                camera_->setOrbitHeight(orbitHeight);
-            }
-            
-            if (ImGui::Button("Set Target to Sun")) {
-                camera_->setTarget(glm::vec3(0.0f, 0.0f, 0.0f));
-            }
-        }
-        
-        // Follow Controls (when in follow mode)
-        if (currentMode == 2) { // Follow mode
-            ImGui::Spacing();
-            ImGui::Text("Follow Controls");
-            ImGui::Separator();
-            
-            static float followDistance = 100.0f;
-            static float followHeight = 20.0f;
-            static float followSmoothing = 2.0f;
-            static bool autoFollowEnabled = false;
-            
-            if (ImGui::Checkbox("Auto Follow", &autoFollowEnabled)) {
-                camera_->enableAutoFollow(autoFollowEnabled);
-            }
-            
-            if (ImGui::SliderFloat("Follow Distance", &followDistance, 10.0f, 500.0f)) {
-                camera_->setFollowDistance(followDistance);
-            }
-            
-            if (ImGui::SliderFloat("Follow Height", &followHeight, -50.0f, 100.0f)) {
-                camera_->setFollowHeight(followHeight);
-            }
-            
-            if (ImGui::SliderFloat("Follow Smoothing", &followSmoothing, 0.1f, 10.0f)) {
-                camera_->setFollowSmoothing(followSmoothing);
-            }
-        }
-        
-        // Smooth Transitions
-        ImGui::Spacing();
-        ImGui::Text("Smooth Transitions");
-        ImGui::Separator();
-        
-        static float transitionDuration = 2.0f;
-        static int transitionType = 3; // EASE_IN_OUT
-        const char* transitionTypes[] = {"Linear", "Ease In", "Ease Out", "Ease In-Out", "Smooth Step"};
-        
-        ImGui::SliderFloat("Transition Duration", &transitionDuration, 0.5f, 10.0f);
-        ImGui::Combo("Transition Type", &transitionType, transitionTypes, IM_ARRAYSIZE(transitionTypes));
-        
-        if (ImGui::Button("Transition to Sun")) {
-            camera_->transitionToTarget(glm::vec3(0.0f, 0.0f, 0.0f), 300.0f, transitionDuration, 
-                                      static_cast<Camera::TransitionType>(transitionType));
-        }
-        
-        ImGui::SameLine();
-        if (ImGui::Button("Transition to Origin")) {
-            camera_->transitionToPosition(glm::vec3(0.0f, 0.0f, 100.0f), transitionDuration, 
-                                        static_cast<Camera::TransitionType>(transitionType));
-        }
-        
-        // Cinematic Controls
-        ImGui::Spacing();
-        ImGui::Text("Cinematic Controls");
-        ImGui::Separator();
-        
-        static bool cinematicPlaying = false;
-        cinematicPlaying = camera_->isCinematicPlaying();
-        
-        ImGui::Text("Status: %s", cinematicPlaying ? "Playing" : "Stopped");
-        
-        if (ImGui::Button("Start Solar System Tour")) {
-            std::vector<glm::vec3> waypoints = {
-                glm::vec3(0.0f, 0.0f, 500.0f),    // Far view
-                glm::vec3(200.0f, 100.0f, 200.0f), // Side view
-                glm::vec3(0.0f, 200.0f, 0.0f),     // Top view
-                glm::vec3(-200.0f, 50.0f, 200.0f), // Another angle
-                glm::vec3(0.0f, 0.0f, 100.0f)      // Close view
-            };
-            camera_->startCinematicPath(waypoints, 15.0f);
-            camera_->playCinematicSequence();
-        }
-        
-        ImGui::SameLine();
-        if (ImGui::Button("Stop Cinematic")) {
-            camera_->stopCinematicSequence();
-        }
-        
-        // Camera Effects
-        ImGui::Spacing();
-        ImGui::Text("Camera Effects");
-        ImGui::Separator();
-        
-        static float shakeIntensity = 1.0f;
-        static float shakeDuration = 1.0f;
-        static bool motionBlur = false;
-        
-        ImGui::SliderFloat("Shake Intensity", &shakeIntensity, 0.1f, 10.0f);
-        ImGui::SliderFloat("Shake Duration", &shakeDuration, 0.1f, 5.0f);
-        
-        if (ImGui::Button("Add Camera Shake")) {
-            camera_->addCameraShake(shakeIntensity, shakeDuration);
-        }
-        
-        if (ImGui::Checkbox("Motion Blur", &motionBlur)) {
-            camera_->enableMotionBlur(motionBlur);
-        }
-        
-        // Quick Actions
-        ImGui::Spacing();
-        ImGui::Text("Quick Actions");
-        ImGui::Separator();
-        
-        if (ImGui::Button("Reset Camera")) {
+        // Quick camera controls
+        if (ImGui::Button("🏠", ImVec2(30, 25))) {
             camera_->resetToDefault();
         }
-        
         ImGui::SameLine();
-        if (ImGui::Button("Save State")) {
-            camera_->saveCurrentState();
+        if (ImGui::Button("☀️", ImVec2(30, 25))) {
+            camera_->transitionToTarget(glm::vec3(0.0f, 0.0f, 0.0f), 300.0f, 2.0f, Camera::TransitionType::EASE_IN_OUT);
         }
-        
         ImGui::SameLine();
-        if (ImGui::Button("Restore State")) {
-            camera_->restoreSavedState();
+        if (ImGui::Button("🔄", ImVec2(30, 25))) {
+            camera_->setMode(Camera::Mode::ORBIT);
+            camera_->setTarget(glm::vec3(0.0f, 0.0f, 0.0f));
         }
-        
-        // Status Indicators
-        ImGui::Spacing();
-        ImGui::Text("Status");
-        ImGui::Separator();
-        
-        ImGui::Text("Transitioning: %s", camera_->isTransitioning() ? "Yes" : "No");
-        ImGui::Text("Distance to Target: %.2f", camera_->getDistanceToTarget());
-        
-        ImGui::End();
+        ImGui::SameLine();
+        if (ImGui::Button("🎬", ImVec2(30, 25))) {
+            if (camera_->isCinematicPlaying()) {
+                camera_->stopCinematicSequence();
+            } else {
+                std::vector<glm::vec3> waypoints = {
+                    glm::vec3(0.0f, 0.0f, 500.0f),
+                    glm::vec3(200.0f, 100.0f, 200.0f),
+                    glm::vec3(0.0f, 200.0f, 0.0f),
+                    glm::vec3(0.0f, 0.0f, 100.0f)
+                };
+                camera_->startCinematicPath(waypoints, 12.0f);
+                camera_->playCinematicSequence();
+            }
+        }
     }
-
-    // Rendering control panel
-    if (showRenderingPanel_) {
-        ImGui::Begin("Rendering Controls", &showRenderingPanel_);
-        
-        static glm::vec3 lightPos = glm::vec3(10.0f, 10.0f, 10.0f);
-        static glm::vec3 lightColor = glm::vec3(1.0f, 1.0f, 1.0f);
-        
-        ImGui::SliderFloat3("Light Position", &lightPos.x, -20.0f, 20.0f);
-        ImGui::ColorEdit3("Light Color", &lightColor.x);
-        
-        // Starfield controls
-        ImGui::Separator();
-        ImGui::Text("Starfield");
-        ImGui::Checkbox("Use Starfield", &useStarfield_);
-        ImGui::SliderFloat("Star Density", &starDensity_, 0.0001f, 0.01f, "%.4f");
-        ImGui::SliderFloat("Star Brightness", &starBrightness_, 0.1f, 3.0f);
-        
-        // Performance info
-        ImGui::Separator();
-        ImGui::Text("Performance");
-        ImGui::Text("Application average %.3f ms/frame (%.1f FPS)", 
-                   1000.0f / ImGui::GetIO().Framerate, ImGui::GetIO().Framerate);
-        
-        ImGui::End();
-    }
+    ImGui::End();
 
     // Rendering
     ImGui::Render();
